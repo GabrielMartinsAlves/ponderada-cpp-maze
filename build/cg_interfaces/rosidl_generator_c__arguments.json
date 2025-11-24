@@ -1,0 +1,56 @@
+{
+  "package_name": "cg_interfaces",
+  "output_dir": "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_generator_c/cg_interfaces",
+  "template_dir": "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl"
+  ],
+  "ros_interface_files": [
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces/srv/MoveCmd.srv",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces/srv/GetMap.srv",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces/msg/RobotSensors.msg",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces/srv/Reset.srv"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.13/site-packages/rosidl_generator_c/__init__.py",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/MoveCmd.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/GetMap.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/msg/RobotSensors.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/Reset.idl",
+    "/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "type_description_tuples": [
+    "srv/MoveCmd.idl:/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_generator_type_description/cg_interfaces/srv/MoveCmd.json",
+    "srv/GetMap.idl:/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_generator_type_description/cg_interfaces/srv/GetMap.json",
+    "msg/RobotSensors.idl:/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_generator_type_description/cg_interfaces/msg/RobotSensors.json",
+    "srv/Reset.idl:/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_generator_type_description/cg_interfaces/srv/Reset.json"
+  ]
+}

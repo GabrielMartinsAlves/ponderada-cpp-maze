@@ -1,0 +1,38 @@
+{
+  "package_name": "cg_interfaces",
+  "output_dir": "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_generator_py/cg_interfaces",
+  "template_dir": "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource",
+  "idl_tuples": [
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../../../lib/rosidl_generator_py/rosidl_generator_py",
+    "/usr/lib64/ros-jazzy/lib/python3.13/site-packages/rosidl_generator_py/__init__.py",
+    "/usr/lib64/ros-jazzy/lib/python3.13/site-packages/rosidl_generator_py/generate_py_impl.py",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_action_pkg_typesupport_entry_point.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_action.py.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_idl_pkg_typesupport_entry_point.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_idl_support.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_idl.py.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_msg_pkg_typesupport_entry_point.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_msg_support.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_msg.py.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_srv_pkg_typesupport_entry_point.c.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_generator_py/cmake/../resource/_srv.py.em",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/MoveCmd.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/GetMap.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/msg/RobotSensors.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/Reset.idl",
+    "/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

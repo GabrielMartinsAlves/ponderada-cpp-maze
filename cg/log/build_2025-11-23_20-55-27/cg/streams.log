@@ -1,0 +1,56 @@
+[0.015s] Invoking command in '/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabrielmartins/Documents/github/ponderada_ros/install/cg_teleop CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake /home/gabrielmartins/Documents/github/ponderada_ros/cg -DCMAKE_INSTALL_PREFIX=/home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg
+[0.060s] -- The C compiler identification is GNU 15.2.1
+[0.128s] -- The CXX compiler identification is GNU 15.2.1
+[0.135s] -- Detecting C compiler ABI info
+[0.202s] -- Detecting C compiler ABI info - done
+[0.216s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.216s] -- Detecting C compile features
+[0.217s] -- Detecting C compile features - done
+[0.227s] -- Detecting CXX compiler ABI info
+[0.302s] -- Detecting CXX compiler ABI info - done
+[0.317s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.317s] -- Detecting CXX compile features
+[0.318s] -- Detecting CXX compile features - done
+[0.326s] -- Found ament_cmake: 2.5.4 (/usr/lib64/ros-jazzy/share/ament_cmake/cmake)
+[0.477s] -- Found Python3: /usr/bin/python3 (found version "3.13.9") found components: Interpreter
+[0.567s] -- Found rclcpp: 28.1.12 (/usr/lib64/ros-jazzy/share/rclcpp/cmake)
+[0.599s] -- Found rosidl_generator_c: 4.6.6 (/usr/lib64/ros-jazzy/share/rosidl_generator_c/cmake)
+[0.609s] -- Found rosidl_generator_cpp: 4.6.6 (/usr/lib64/ros-jazzy/share/rosidl_generator_cpp/cmake)
+[0.622s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.635s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.688s] -- Found rmw_implementation_cmake: 7.3.2 (/usr/lib64/ros-jazzy/share/rmw_implementation_cmake/cmake)
+[0.690s] -- Found rmw_fastrtps_cpp: 8.4.3 (/usr/lib64/ros-jazzy/share/rmw_fastrtps_cpp/cmake)
+[0.906s] -- Found OpenSSL: /usr/lib64/libcrypto.so (found version "3.2.6")
+[0.933s] -- Found FastRTPS: /usr/lib64/ros-jazzy/include (Required is at least version "2.13")
+[0.971s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.026s] -- Found cg_interfaces: 0.0.0 (/home/gabrielmartins/Documents/github/ponderada_ros/install/cg_interfaces/share/cg_interfaces/cmake)
+[1.163s] -- Configuring done (1.1s)
+[1.174s] -- Generating done (0.0s)
+[1.175s] -- Build files have been written to: /home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg
+[1.186s] Invoked command in '/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabrielmartins/Documents/github/ponderada_ros/install/cg_teleop CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake /home/gabrielmartins/Documents/github/ponderada_ros/cg -DCMAKE_INSTALL_PREFIX=/home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg
+[1.186s] Invoking command in '/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabrielmartins/Documents/github/ponderada_ros/install/cg_teleop CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --build /home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg -- -j8 -l8
+[1.229s] [ 50%] [32mBuilding CXX object CMakeFiles/cg_autonomous_navigator.dir/cg_autonomous_navigator.cpp.o[0m
+[5.381s] [100%] [32m[1mLinking CXX executable cg_autonomous_navigator[0m
+[5.478s] [100%] Built target cg_autonomous_navigator
+[5.488s] Invoked command in '/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabrielmartins/Documents/github/ponderada_ros/install/cg_teleop CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --build /home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg -- -j8 -l8
+[5.497s] Invoking command in '/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabrielmartins/Documents/github/ponderada_ros/install/cg_teleop CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --install /home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg
+[5.503s] -- Install configuration: ""
+[5.503s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/lib/cg/cg_autonomous_navigator
+[5.506s] -- Set non-toolchain portion of runtime path of "/home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/lib/cg/cg_autonomous_navigator" to ""
+[5.507s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/lib/cg/maze.py
+[5.507s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/ament_index/resource_index/package_run_dependencies/cg
+[5.507s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/ament_index/resource_index/parent_prefix_path/cg
+[5.507s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/environment/ament_prefix_path.sh
+[5.507s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/environment/ament_prefix_path.dsv
+[5.507s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/environment/path.sh
+[5.508s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/environment/path.dsv
+[5.508s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/local_setup.bash
+[5.508s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/local_setup.sh
+[5.508s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/local_setup.zsh
+[5.508s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/local_setup.dsv
+[5.508s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/package.dsv
+[5.509s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/ament_index/resource_index/packages/cg
+[5.509s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/cmake/cgConfig.cmake
+[5.509s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/cmake/cgConfig-version.cmake
+[5.509s] -- Installing: /home/gabrielmartins/Documents/github/ponderada_ros/cg/install/cg/share/cg/package.xml
+[5.512s] Invoked command in '/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/gabrielmartins/Documents/github/ponderada_ros/install/cg_teleop CONDA_PROMPT_MODIFIER=(ros_env) DEBUGINFOD_URLS=https://debuginfod.fedoraproject.org/ _=/usr/bin/env /usr/bin/cmake --install /home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg

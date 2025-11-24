@@ -1,0 +1,31 @@
+{
+  "package_name": "cg_interfaces",
+  "output_dir": "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_typesupport_cpp/cg_interfaces",
+  "template_dir": "/usr/lib64/ros-jazzy/share/rosidl_typesupport_cpp/resource",
+  "idl_tuples": [
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl"
+  ],
+  "ros_interface_dependencies": [
+    "service_msgs:/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+  ],
+  "target_dependencies": [
+    "/usr/lib64/ros-jazzy/lib/rosidl_typesupport_cpp/rosidl_typesupport_cpp",
+    "/usr/lib64/ros-jazzy/lib/python3.13/site-packages/rosidl_typesupport_cpp/__init__.py",
+    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_cpp/resource/action__type_support.cpp.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_cpp/resource/idl__type_support.cpp.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_cpp/resource/msg__type_support.cpp.em",
+    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_cpp/resource/srv__type_support.cpp.em",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/MoveCmd.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/GetMap.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/msg/RobotSensors.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/Reset.idl",
+    "/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
+    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
+    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+  ]
+}

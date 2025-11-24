@@ -1,0 +1,20 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cg_interfaces/srv/MoveCmd.srv
+// generated code does not contain a copyright notice
+
+
+module cg_interfaces {
+  module srv {
+    struct MoveCmd_Request {
+      string direction;
+    };
+    typedef int8 int8__2[2];
+    struct MoveCmd_Response {
+      boolean success;
+
+      int8__2 robot_pos;
+
+      int8__2 target_pos;
+    };
+  };
+};

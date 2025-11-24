@@ -1,0 +1,10 @@
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/uninstall.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/cg_uninstall.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/cg_autonomous_navigator.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/test.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/edit_cache.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/rebuild_cache.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/list_install_components.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/install.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/install/local.dir
+/home/gabrielmartins/Documents/github/ponderada_ros/cg/build/cg/CMakeFiles/install/strip.dir

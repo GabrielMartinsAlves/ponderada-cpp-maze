@@ -1,0 +1,17 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cg_interfaces/srv/GetMap.srv
+// generated code does not contain a copyright notice
+
+
+module cg_interfaces {
+  module srv {
+    struct GetMap_Request {
+      uint8 structure_needs_at_least_one_member;
+    };
+    struct GetMap_Response {
+      sequence<string> occupancy_grid_flattened;
+
+      sequence<uint8, 2> occupancy_grid_shape;
+    };
+  };
+};

@@ -1,0 +1,14 @@
+{
+  "package_name": "cg_interfaces",
+  "output_dir": "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_generator_type_description/cg_interfaces",
+  "idl_tuples": [
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl"
+  ],
+  "include_paths": [
+    "service_msgs:/usr/lib64/ros-jazzy/share/service_msgs",
+    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces"
+  ]
+}

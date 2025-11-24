@@ -1,0 +1,9 @@
+{
+  "package_name": "cg_interfaces",
+  "non_idl_tuples": [
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces:srv/MoveCmd.srv",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces:srv/GetMap.srv",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces:msg/RobotSensors.msg",
+    "/home/gabrielmartins/Documents/github/ponderada_ros/culling_games/src/cg_interfaces:srv/Reset.srv"
+  ]
+}

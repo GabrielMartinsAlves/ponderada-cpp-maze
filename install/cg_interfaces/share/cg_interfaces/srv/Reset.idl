@@ -1,0 +1,25 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from cg_interfaces/srv/Reset.srv
+// generated code does not contain a copyright notice
+
+
+module cg_interfaces {
+  module srv {
+    @verbatim (language="comment", text=
+      "Request")
+    struct Reset_Request {
+      boolean is_random;
+
+      @verbatim (language="comment", text=
+        "e.g., \"1.csv\". If empty and is_random is false, resets current map.")
+      string map_name;
+    };
+    @verbatim (language="comment", text=
+      "Response")
+    struct Reset_Response {
+      boolean success;
+
+      string loaded_map_name;
+    };
+  };
+};

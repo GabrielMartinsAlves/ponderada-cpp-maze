@@ -1,0 +1,12 @@
+setup.py
+cg_interfaces/__init__.py
+cg_interfaces.egg-info/PKG-INFO
+cg_interfaces.egg-info/SOURCES.txt
+cg_interfaces.egg-info/dependency_links.txt
+cg_interfaces.egg-info/top_level.txt
+cg_interfaces/msg/__init__.py
+cg_interfaces/msg/_robot_sensors.py
+cg_interfaces/srv/__init__.py
+cg_interfaces/srv/_get_map.py
+cg_interfaces/srv/_move_cmd.py
+cg_interfaces/srv/_reset.py

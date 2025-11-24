@@ -1,0 +1,46 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "cg_interfaces/srv/MoveCmd_Response",
+      "fields": [
+        {
+          "name": "success",
+          "type": {
+            "type_id": 15,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "robot_pos",
+          "type": {
+            "type_id": 50,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "target_pos",
+          "type": {
+            "type_id": 50,
+            "capacity": 2,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "cg_interfaces/srv/MoveCmd_Response",
+      "hash_string": "RIHS01_fc6261d520f2376fd4dfcec2fe0b9f07a3448900e5fbefd0301e703f5e77b2c1"
+    }
+  ]
+}

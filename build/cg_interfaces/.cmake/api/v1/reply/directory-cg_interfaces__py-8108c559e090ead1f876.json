@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "cg_interfaces__py",
+		"source" : "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/cg_interfaces__py"
+	}
+}
