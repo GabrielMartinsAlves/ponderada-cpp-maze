@@ -1,0 +1,12 @@
+# Ignore package cache files created under m/pkgs/cache
+m/pkgs/cache/
+
+# Ignore whole m/pkgs contents (if you prefer only caches, remove this)
+m/pkgs/
+
+# Typical local and build artifacts
+*.pyc
+__pycache__/
+.build/
+*.log
+.DS_Store
