@@ -1,0 +1,419 @@
+[0.000000] (-) TimerEvent: {}
+[0.000235] (cg_interfaces) JobQueued: {'identifier': 'cg_interfaces', 'dependencies': OrderedDict()}
+[0.000470] (cg) JobQueued: {'identifier': 'cg', 'dependencies': OrderedDict([('cg_interfaces', '/project_ws/install/cg_interfaces')])}
+[0.000588] (cg_solver) JobQueued: {'identifier': 'cg_solver', 'dependencies': OrderedDict([('cg_interfaces', '/project_ws/install/cg_interfaces')])}
+[0.000774] (cg_teleop) JobQueued: {'identifier': 'cg_teleop', 'dependencies': OrderedDict([('cg_interfaces', '/project_ws/install/cg_interfaces')])}
+[0.000813] (cg_interfaces) JobStarted: {'identifier': 'cg_interfaces'}
+[0.007943] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'cmake'}
+[0.008412] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'build'}
+[0.009100] (cg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/project_ws/build/cg_interfaces', '--', '-j8', '-l8'], 'cwd': '/project_ws/build/cg_interfaces', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/project_ws/log'), ('COLCON_PREFIX_PATH', '/project_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.Xauthority'), ('AMENT_PREFIX_PATH', '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble'), ('PWD', '/project_ws/build/cg_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/project_ws/install/cg_solver:/project_ws/install/cg_interfaces:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble')]), 'shell': False}
+[0.065900] (cg_interfaces) StdoutLine: {'line': b'[  1%] Built target cg_interfaces__cpp\n'}
+[0.068019] (cg_interfaces) StdoutLine: {'line': b'[ 12%] Built target cg_interfaces__rosidl_generator_c\n'}
+[0.084903] (cg_interfaces) StdoutLine: {'line': b'[ 12%] Built target ament_cmake_python_copy_cg_interfaces\n'}
+[0.099896] (-) TimerEvent: {}
+[0.103041] (cg_interfaces) StdoutLine: {'line': b'[ 23%] Built target cg_interfaces__rosidl_typesupport_c\n'}
+[0.103320] (cg_interfaces) StdoutLine: {'line': b'[ 34%] Built target cg_interfaces__rosidl_typesupport_introspection_c\n'}
+[0.103846] (cg_interfaces) StdoutLine: {'line': b'[ 45%] Built target cg_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[0.104182] (cg_interfaces) StdoutLine: {'line': b'[ 67%] Built target cg_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[0.104297] (cg_interfaces) StdoutLine: {'line': b'[ 69%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[0.104427] (cg_interfaces) StdoutLine: {'line': b'[ 78%] Built target cg_interfaces__rosidl_typesupport_cpp\n'}
+[0.120653] (cg_interfaces) StdoutLine: {'line': b'[ 78%] Built target cg_interfaces\n'}
+[0.136843] (cg_interfaces) StdoutLine: {'line': b'[ 80%] Built target cg_interfaces__py\n'}
+[0.155571] (cg_interfaces) StdoutLine: {'line': b'[ 89%] Built target cg_interfaces__rosidl_generator_py\n'}
+[0.173352] (cg_interfaces) StdoutLine: {'line': b'[100%] Built target cg_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[0.173579] (cg_interfaces) StdoutLine: {'line': b'[100%] Built target cg_interfaces__rosidl_typesupport_c__pyext\n'}
+[0.173675] (cg_interfaces) StdoutLine: {'line': b'[100%] Built target cg_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.199998] (-) TimerEvent: {}
+[0.262959] (cg_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.263506] (cg_interfaces) StdoutLine: {'line': b'writing cg_interfaces.egg-info/PKG-INFO\n'}
+[0.263802] (cg_interfaces) StdoutLine: {'line': b'writing dependency_links to cg_interfaces.egg-info/dependency_links.txt\n'}
+[0.263901] (cg_interfaces) StdoutLine: {'line': b'writing top-level names to cg_interfaces.egg-info/top_level.txt\n'}
+[0.265616] (cg_interfaces) StdoutLine: {'line': b"reading manifest file 'cg_interfaces.egg-info/SOURCES.txt'\n"}
+[0.266127] (cg_interfaces) StdoutLine: {'line': b"writing manifest file 'cg_interfaces.egg-info/SOURCES.txt'\n"}
+[0.288156] (cg_interfaces) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_cg_interfaces_egg\n'}
+[0.297831] (cg_interfaces) CommandEnded: {'returncode': 0}
+[0.298384] (cg_interfaces) JobProgress: {'identifier': 'cg_interfaces', 'progress': 'install'}
+[0.300084] (-) TimerEvent: {}
+[0.305639] (cg_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/project_ws/build/cg_interfaces'], 'cwd': '/project_ws/build/cg_interfaces', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/project_ws/log'), ('COLCON_PREFIX_PATH', '/project_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.Xauthority'), ('AMENT_PREFIX_PATH', '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble'), ('PWD', '/project_ws/build/cg_interfaces'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/project_ws/install/cg_solver:/project_ws/install/cg_interfaces:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble')]), 'shell': False}
+[0.312829] (cg_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.313268] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/ament_index/resource_index/rosidl_interfaces/cg_interfaces\n'}
+[0.313472] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.313620] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.313700] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[0.313799] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/robot_sensors.h\n'}
+[0.313872] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.313988] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__functions.c\n'}
+[0.314162] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__functions.h\n'}
+[0.314259] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__struct.h\n'}
+[0.314353] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.h\n'}
+[0.314425] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.314659] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.h\n'}
+[0.314847] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.314929] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.c\n'}
+[0.315009] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__functions.h\n'}
+[0.315084] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.h\n'}
+[0.315199] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.h\n'}
+[0.315279] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.c\n'}
+[0.315497] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__functions.h\n'}
+[0.315590] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.h\n'}
+[0.315884] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.h\n'}
+[0.316050] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__functions.c\n'}
+[0.316223] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__functions.h\n'}
+[0.316294] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__struct.h\n'}
+[0.316395] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.h\n'}
+[0.316466] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.h\n'}
+[0.316636] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/reset.h\n'}
+[0.316852] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/library_path.sh\n'}
+[0.316935] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/library_path.dsv\n'}
+[0.317017] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_c.so\n'}
+[0.317096] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.317216] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.317294] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[0.317469] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.317558] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_fastrtps_c.h\n'}
+[0.317639] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.317760] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.317891] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_c.h\n'}
+[0.318004] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_c.h\n'}
+[0.318106] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_c.h\n'}
+[0.318162] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[0.318220] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.318276] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.318332] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[0.318388] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.318446] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_introspection_c.h\n'}
+[0.318514] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.c\n'}
+[0.318570] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.318625] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.318680] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_c.h\n'}
+[0.318755] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.c\n'}
+[0.318885] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_c.h\n'}
+[0.318938] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.c\n'}
+[0.318991] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_introspection_c.h\n'}
+[0.319045] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.c\n'}
+[0.319098] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[0.319150] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_c.so\n'}
+[0.319201] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.319253] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.319306] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[0.319361] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/robot_sensors.hpp\n'}
+[0.319415] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.319466] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__builder.hpp\n'}
+[0.319532] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__struct.hpp\n'}
+[0.319587] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__traits.hpp\n'}
+[0.319638] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.hpp\n'}
+[0.319688] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.319739] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/move_cmd.hpp\n'}
+[0.319791] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.319843] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__builder.hpp\n'}
+[0.319895] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__struct.hpp\n'}
+[0.319946] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__traits.hpp\n'}
+[0.319996] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.hpp\n'}
+[0.320047] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__builder.hpp\n'}
+[0.320098] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__struct.hpp\n'}
+[0.320149] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__traits.hpp\n'}
+[0.320198] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.hpp\n'}
+[0.320247] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__builder.hpp\n'}
+[0.320296] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__struct.hpp\n'}
+[0.320344] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__traits.hpp\n'}
+[0.320392] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.hpp\n'}
+[0.320440] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/get_map.hpp\n'}
+[0.320494] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/reset.hpp\n'}
+[0.320546] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.320623] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.320703] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[0.320759] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.320810] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.320861] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/dds_fastrtps\n'}
+[0.320910] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.320961] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.321013] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.321063] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/dds_fastrtps\n'}
+[0.321114] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.321164] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[0.321215] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[0.321266] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces\n'}
+[0.321318] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv\n'}
+[0.321369] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail\n'}
+[0.321423] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.321477] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/move_cmd__type_support.cpp\n'}
+[0.321537] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.321588] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/get_map__type_support.cpp\n'}
+[0.321640] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.321691] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/srv/detail/reset__type_support.cpp\n'}
+[0.321753] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg\n'}
+[0.321808] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail\n'}
+[0.321860] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_introspection_cpp.hpp\n'}
+[0.321912] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/include/cg_interfaces/cg_interfaces/msg/detail/robot_sensors__type_support.cpp\n'}
+[0.321967] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[0.322020] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_typesupport_cpp.so\n'}
+[0.322071] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.sh\n'}
+[0.322120] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/pythonpath.dsv\n'}
+[0.322170] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info\n'}
+[0.322219] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[0.322269] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[0.322319] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[0.322371] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[0.322423] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces\n'}
+[0.322474] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/__init__.py\n'}
+[0.322529] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv\n'}
+[0.322578] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_move_cmd.py\n'}
+[0.322627] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_move_cmd_s.c\n'}
+[0.322677] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_get_map.py\n'}
+[0.322725] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_get_map_s.c\n'}
+[0.322774] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_reset.py\n'}
+[0.322823] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/_reset_s.c\n'}
+[0.322870] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv/__init__.py\n'}
+[0.322919] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/msg\n'}
+[0.322967] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/msg/_robot_sensors.py\n'}
+[0.323017] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/msg/_robot_sensors_s.c\n'}
+[0.323067] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/msg/__init__.py\n'}
+[0.323116] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[0.323170] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[0.323225] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/_cg_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[0.323276] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/libcg_interfaces__rosidl_generator_py.so\n'}
+[0.323325] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.323373] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.323421] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.349863] (cg_interfaces) StdoutLine: {'line': b"Listing '/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces'...\n"}
+[0.350037] (cg_interfaces) StdoutLine: {'line': b"Listing '/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/msg'...\n"}
+[0.350114] (cg_interfaces) StdoutLine: {'line': b"Listing '/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/srv'...\n"}
+[0.353682] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.353810] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.354031] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages/cg_interfaces/cg_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[0.354363] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/lib/libcg_interfaces__rosidl_generator_py.so\n'}
+[0.354505] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.idl\n'}
+[0.354713] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/GetMap.idl\n'}
+[0.354857] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.idl\n'}
+[0.354941] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/Reset.idl\n'}
+[0.355010] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd.srv\n'}
+[0.355089] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd_Request.msg\n'}
+[0.355159] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/MoveCmd_Response.msg\n'}
+[0.355236] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/GetMap.srv\n'}
+[0.355303] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/GetMap_Request.msg\n'}
+[0.355371] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/GetMap_Response.msg\n'}
+[0.355447] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/msg/RobotSensors.msg\n'}
+[0.355531] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/Reset.srv\n'}
+[0.355597] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/Reset_Request.msg\n'}
+[0.355671] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/srv/Reset_Response.msg\n'}
+[0.355737] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/ament_index/resource_index/package_run_dependencies/cg_interfaces\n'}
+[0.355801] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/ament_index/resource_index/parent_prefix_path/cg_interfaces\n'}
+[0.355851] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.sh\n'}
+[0.355900] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/ament_prefix_path.dsv\n'}
+[0.355948] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/path.sh\n'}
+[0.356011] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/environment/path.dsv\n'}
+[0.356061] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/local_setup.bash\n'}
+[0.356120] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/local_setup.sh\n'}
+[0.356181] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/local_setup.zsh\n'}
+[0.356231] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/local_setup.dsv\n'}
+[0.356303] (cg_interfaces) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_interfaces/share/cg_interfaces/package.dsv\n'}
+[0.356358] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/ament_index/resource_index/packages/cg_interfaces\n'}
+[0.356422] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport.cmake\n'}
+[0.356489] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[0.356542] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[0.356591] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[0.356669] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[0.356731] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[0.356782] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[0.356846] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[0.356910] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_cppExport.cmake\n'}
+[0.356962] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[0.357036] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[0.357089] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[0.357153] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[0.357216] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[0.357276] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[0.357338] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport.cmake\n'}
+[0.357402] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/export_cg_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[0.357473] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[0.357541] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[0.357609] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[0.357672] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[0.357742] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[0.357805] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[0.357855] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[0.357904] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig.cmake\n'}
+[0.357953] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/cmake/cg_interfacesConfig-version.cmake\n'}
+[0.358003] (cg_interfaces) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_interfaces/share/cg_interfaces/package.xml\n'}
+[0.360396] (cg_interfaces) CommandEnded: {'returncode': 0}
+[0.384717] (cg_interfaces) JobEnded: {'identifier': 'cg_interfaces', 'rc': 0}
+[0.385534] (cg) JobStarted: {'identifier': 'cg'}
+[0.388996] (cg_solver) JobStarted: {'identifier': 'cg_solver'}
+[0.391975] (cg_teleop) JobStarted: {'identifier': 'cg_teleop'}
+[0.400189] (-) TimerEvent: {}
+[0.500544] (-) TimerEvent: {}
+[0.590708] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'cmake'}
+[0.591223] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'build'}
+[0.591885] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/project_ws/build/cg_solver', '--', '-j8', '-l8'], 'cwd': '/project_ws/build/cg_solver', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/project_ws/log'), ('COLCON_PREFIX_PATH', '/project_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.Xauthority'), ('AMENT_PREFIX_PATH', '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble'), ('PWD', '/project_ws/build/cg_solver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble')]), 'shell': False}
+[0.600621] (-) TimerEvent: {}
+[0.626762] (cg_solver) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target autonomous_navigator_node\x1b[0m\n'}
+[0.644442] (cg_solver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/autonomous_navigator_node.dir/src/autonomous_navigator_node.cpp.o\x1b[0m\n'}
+[0.700725] (-) TimerEvent: {}
+[0.801028] (-) TimerEvent: {}
+[0.901365] (-) TimerEvent: {}
+[1.001690] (-) TimerEvent: {}
+[1.020619] (cg_teleop) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cg_teleop', 'build', '--build-base', '/project_ws/build/cg_teleop/build', 'install', '--record', '/project_ws/build/cg_teleop/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/project_ws/src/cg_teleop', 'env': {'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/project_ws/log', 'COLCON_PREFIX_PATH': '/project_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.Xauthority', 'AMENT_PREFIX_PATH': '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble', 'PWD': '/project_ws/build/cg_teleop', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/project_ws/build/cg_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/project_ws/install/cg_interfaces:/project_ws/install/cg_solver'}, 'shell': False}
+[1.023528] (cg) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/cg', 'build', '--build-base', '/project_ws/build/cg/build', 'install', '--record', '/project_ws/build/cg/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/project_ws/src/cg', 'env': {'HOSTNAME': 'fedora', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/', 'ROS_PYTHON_VERSION': '3', 'ROS_LOG_DIR': '/project_ws/log', 'COLCON_PREFIX_PATH': '/project_ws/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'DISPLAY': ':0', 'LANG': 'C.UTF-8', 'XAUTHORITY': '/tmp/.Xauthority', 'AMENT_PREFIX_PATH': '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble', 'PWD': '/project_ws/build/cg', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/project_ws/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/project_ws/install/cg_interfaces:/project_ws/install/cg_solver'}, 'shell': False}
+[1.101783] (-) TimerEvent: {}
+[1.184686] (cg_teleop) StdoutLine: {'line': b'running egg_info\n'}
+[1.184893] (cg) StdoutLine: {'line': b'running egg_info\n'}
+[1.185156] (cg_teleop) StdoutLine: {'line': b'writing ../../build/cg_teleop/cg_teleop.egg-info/PKG-INFO\n'}
+[1.185344] (cg_teleop) StdoutLine: {'line': b'writing dependency_links to ../../build/cg_teleop/cg_teleop.egg-info/dependency_links.txt\n'}
+[1.185461] (cg_teleop) StdoutLine: {'line': b'writing entry points to ../../build/cg_teleop/cg_teleop.egg-info/entry_points.txt\n'}
+[1.185734] (cg) StdoutLine: {'line': b'writing ../../build/cg/cg.egg-info/PKG-INFO\n'}
+[1.185853] (cg_teleop) StdoutLine: {'line': b'writing requirements to ../../build/cg_teleop/cg_teleop.egg-info/requires.txt\n'}
+[1.185940] (cg) StdoutLine: {'line': b'writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt\n'}
+[1.186014] (cg_teleop) StdoutLine: {'line': b'writing top-level names to ../../build/cg_teleop/cg_teleop.egg-info/top_level.txt\n'}
+[1.186087] (cg) StdoutLine: {'line': b'writing entry points to ../../build/cg/cg.egg-info/entry_points.txt\n'}
+[1.186142] (cg) StdoutLine: {'line': b'writing requirements to ../../build/cg/cg.egg-info/requires.txt\n'}
+[1.186195] (cg) StdoutLine: {'line': b'writing top-level names to ../../build/cg/cg.egg-info/top_level.txt\n'}
+[1.186988] (cg_teleop) StdoutLine: {'line': b"reading manifest file '../../build/cg_teleop/cg_teleop.egg-info/SOURCES.txt'\n"}
+[1.187784] (cg_teleop) StdoutLine: {'line': b"writing manifest file '../../build/cg_teleop/cg_teleop.egg-info/SOURCES.txt'\n"}
+[1.187909] (cg_teleop) StdoutLine: {'line': b'running build\n'}
+[1.187968] (cg_teleop) StdoutLine: {'line': b'running build_py\n'}
+[1.188066] (cg_teleop) StdoutLine: {'line': b'running install\n'}
+[1.188366] (cg_teleop) StdoutLine: {'line': b'running install_lib\n'}
+[1.188608] (cg) StdoutLine: {'line': b"reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'\n"}
+[1.189076] (cg) StdoutLine: {'line': b"adding license file 'LICENSE'\n"}
+[1.189339] (cg_teleop) StdoutLine: {'line': b'running install_data\n'}
+[1.189433] (cg_teleop) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.191647] (cg) StdoutLine: {'line': b"writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'\n"}
+[1.191842] (cg_teleop) StdoutLine: {'line': b"removing '/project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.191909] (cg) StdoutLine: {'line': b'running build\n'}
+[1.191964] (cg) StdoutLine: {'line': b'running build_py\n'}
+[1.192054] (cg_teleop) StdoutLine: {'line': b'Copying ../../build/cg_teleop/cg_teleop.egg-info to /project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop-0.0.0-py3.10.egg-info\n'}
+[1.192769] (cg_teleop) StdoutLine: {'line': b'running install_scripts\n'}
+[1.193028] (cg) StdoutLine: {'line': b'running install\n'}
+[1.193476] (cg) StdoutLine: {'line': b'running install_lib\n'}
+[1.195700] (cg) StdoutLine: {'line': b'running install_data\n'}
+[1.196771] (cg) StdoutLine: {'line': b'running install_egg_info\n'}
+[1.198998] (cg) StdoutLine: {'line': b"removing '/project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[1.199176] (cg) StdoutLine: {'line': b'Copying ../../build/cg/cg.egg-info to /project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info\n'}
+[1.200181] (cg) StdoutLine: {'line': b'running install_scripts\n'}
+[1.201855] (-) TimerEvent: {}
+[1.211634] (cg_teleop) StdoutLine: {'line': b'Installing teleop_keyboard script to /project_ws/install/cg_teleop/lib/cg_teleop\n'}
+[1.211896] (cg_teleop) StdoutLine: {'line': b"writing list of installed files to '/project_ws/build/cg_teleop/install.log'\n"}
+[1.220321] (cg) StdoutLine: {'line': b'Installing edit script to /project_ws/install/cg/lib/cg\n'}
+[1.220562] (cg) StdoutLine: {'line': b'Installing maze script to /project_ws/install/cg/lib/cg\n'}
+[1.220679] (cg) StdoutLine: {'line': b'Installing test script to /project_ws/install/cg/lib/cg\n'}
+[1.221314] (cg) StdoutLine: {'line': b"writing list of installed files to '/project_ws/build/cg/install.log'\n"}
+[1.235562] (cg_teleop) CommandEnded: {'returncode': 0}
+[1.240992] (cg_teleop) JobEnded: {'identifier': 'cg_teleop', 'rc': 0}
+[1.246377] (cg) CommandEnded: {'returncode': 0}
+[1.251747] (cg) JobEnded: {'identifier': 'cg', 'rc': 0}
+[1.302110] (-) TimerEvent: {}
+[1.402536] (-) TimerEvent: {}
+[1.502815] (-) TimerEvent: {}
+[1.603212] (-) TimerEvent: {}
+[1.703597] (-) TimerEvent: {}
+[1.803984] (-) TimerEvent: {}
+[1.904317] (-) TimerEvent: {}
+[2.004648] (-) TimerEvent: {}
+[2.104962] (-) TimerEvent: {}
+[2.205358] (-) TimerEvent: {}
+[2.305772] (-) TimerEvent: {}
+[2.406197] (-) TimerEvent: {}
+[2.506600] (-) TimerEvent: {}
+[2.607041] (-) TimerEvent: {}
+[2.707385] (-) TimerEvent: {}
+[2.807778] (-) TimerEvent: {}
+[2.908213] (-) TimerEvent: {}
+[3.008520] (-) TimerEvent: {}
+[3.108943] (-) TimerEvent: {}
+[3.209343] (-) TimerEvent: {}
+[3.309702] (-) TimerEvent: {}
+[3.410126] (-) TimerEvent: {}
+[3.510452] (-) TimerEvent: {}
+[3.610859] (-) TimerEvent: {}
+[3.711284] (-) TimerEvent: {}
+[3.811697] (-) TimerEvent: {}
+[3.912085] (-) TimerEvent: {}
+[4.012417] (-) TimerEvent: {}
+[4.112737] (-) TimerEvent: {}
+[4.213168] (-) TimerEvent: {}
+[4.313586] (-) TimerEvent: {}
+[4.414017] (-) TimerEvent: {}
+[4.514344] (-) TimerEvent: {}
+[4.614710] (-) TimerEvent: {}
+[4.715090] (-) TimerEvent: {}
+[4.815395] (-) TimerEvent: {}
+[4.915853] (-) TimerEvent: {}
+[5.016156] (-) TimerEvent: {}
+[5.116535] (-) TimerEvent: {}
+[5.216940] (-) TimerEvent: {}
+[5.317378] (-) TimerEvent: {}
+[5.417702] (-) TimerEvent: {}
+[5.518010] (-) TimerEvent: {}
+[5.618412] (-) TimerEvent: {}
+[5.718709] (-) TimerEvent: {}
+[5.819089] (-) TimerEvent: {}
+[5.919546] (-) TimerEvent: {}
+[6.019860] (-) TimerEvent: {}
+[6.120238] (-) TimerEvent: {}
+[6.220649] (-) TimerEvent: {}
+[6.320952] (-) TimerEvent: {}
+[6.421325] (-) TimerEvent: {}
+[6.521647] (-) TimerEvent: {}
+[6.622030] (-) TimerEvent: {}
+[6.722427] (-) TimerEvent: {}
+[6.822743] (-) TimerEvent: {}
+[6.923085] (-) TimerEvent: {}
+[7.023378] (-) TimerEvent: {}
+[7.123779] (-) TimerEvent: {}
+[7.224218] (-) TimerEvent: {}
+[7.324609] (-) TimerEvent: {}
+[7.425025] (-) TimerEvent: {}
+[7.525341] (-) TimerEvent: {}
+[7.625674] (-) TimerEvent: {}
+[7.726029] (-) TimerEvent: {}
+[7.826429] (-) TimerEvent: {}
+[7.926812] (-) TimerEvent: {}
+[8.027119] (-) TimerEvent: {}
+[8.127497] (-) TimerEvent: {}
+[8.227847] (-) TimerEvent: {}
+[8.328224] (-) TimerEvent: {}
+[8.428607] (-) TimerEvent: {}
+[8.528882] (-) TimerEvent: {}
+[8.629248] (-) TimerEvent: {}
+[8.729629] (-) TimerEvent: {}
+[8.830001] (-) TimerEvent: {}
+[8.930398] (-) TimerEvent: {}
+[9.030718] (-) TimerEvent: {}
+[9.131040] (-) TimerEvent: {}
+[9.231534] (-) TimerEvent: {}
+[9.331839] (-) TimerEvent: {}
+[9.432223] (-) TimerEvent: {}
+[9.532549] (-) TimerEvent: {}
+[9.632981] (-) TimerEvent: {}
+[9.733399] (-) TimerEvent: {}
+[9.776393] (cg_solver) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable autonomous_navigator_node\x1b[0m\n'}
+[9.833610] (-) TimerEvent: {}
+[9.934072] (-) TimerEvent: {}
+[10.034385] (-) TimerEvent: {}
+[10.134768] (-) TimerEvent: {}
+[10.235090] (-) TimerEvent: {}
+[10.242746] (cg_solver) StdoutLine: {'line': b'[100%] Built target autonomous_navigator_node\n'}
+[10.253573] (cg_solver) CommandEnded: {'returncode': 0}
+[10.254155] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'install'}
+[10.254393] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/project_ws/build/cg_solver'], 'cwd': '/project_ws/build/cg_solver', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/project_ws/log'), ('COLCON_PREFIX_PATH', '/project_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.Xauthority'), ('AMENT_PREFIX_PATH', '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble'), ('PWD', '/project_ws/build/cg_solver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble')]), 'shell': False}
+[10.262373] (cg_solver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[10.262603] (cg_solver) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node\n'}
+[10.274407] (cg_solver) StdoutLine: {'line': b'-- Set runtime path of "/project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node" to ""\n'}
+[10.274588] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver\n'}
+[10.274716] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver\n'}
+[10.274788] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh\n'}
+[10.274839] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv\n'}
+[10.274935] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.sh\n'}
+[10.275004] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.dsv\n'}
+[10.275056] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.bash\n'}
+[10.275106] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.sh\n'}
+[10.275156] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.zsh\n'}
+[10.275204] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.dsv\n'}
+[10.275253] (cg_solver) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_solver/share/cg_solver/package.dsv\n'}
+[10.275302] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/packages/cg_solver\n'}
+[10.275354] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake\n'}
+[10.275404] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake\n'}
+[10.275461] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/package.xml\n'}
+[10.276475] (cg_solver) CommandEnded: {'returncode': 0}
+[10.286356] (cg_solver) JobEnded: {'identifier': 'cg_solver', 'rc': 0}
+[10.287077] (-) EventReactorShutdown: {}

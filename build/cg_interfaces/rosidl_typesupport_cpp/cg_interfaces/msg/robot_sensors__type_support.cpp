@@ -4,7 +4,6 @@
 
 #include "cstddef"
 #include "rosidl_runtime_c/message_type_support_struct.h"
-#include "cg_interfaces/msg/detail/robot_sensors__functions.h"
 #include "cg_interfaces/msg/detail/robot_sensors__struct.hpp"
 #include "rosidl_typesupport_cpp/identifier.hpp"
 #include "rosidl_typesupport_cpp/message_type_support.hpp"
@@ -73,9 +72,6 @@ static const rosidl_message_type_support_t RobotSensors_message_type_support_han
   ::rosidl_typesupport_cpp::typesupport_identifier,
   reinterpret_cast<const type_support_map_t *>(&_RobotSensors_message_typesupport_map),
   ::rosidl_typesupport_cpp::get_message_typesupport_handle_function,
-  &cg_interfaces__msg__RobotSensors__get_type_hash,
-  &cg_interfaces__msg__RobotSensors__get_type_description,
-  &cg_interfaces__msg__RobotSensors__get_type_description_sources,
 };
 
 }  // namespace rosidl_typesupport_cpp

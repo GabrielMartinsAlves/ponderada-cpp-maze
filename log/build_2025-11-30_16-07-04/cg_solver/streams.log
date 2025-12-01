@@ -1,0 +1,25 @@
+[0.011s] Invoking command in '/project_ws/build/cg_solver': CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble /usr/bin/cmake --build /project_ws/build/cg_solver -- -j8 -l8
+[0.080s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_navigator_node.dir/src/autonomous_navigator_node.cpp.o[0m
+[9.193s] [100%] [32m[1mLinking CXX executable autonomous_navigator_node[0m
+[9.659s] [100%] Built target autonomous_navigator_node
+[9.668s] Invoked command in '/project_ws/build/cg_solver' returned '0': CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble /usr/bin/cmake --build /project_ws/build/cg_solver -- -j8 -l8
+[9.676s] Invoking command in '/project_ws/build/cg_solver': CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble /usr/bin/cmake --install /project_ws/build/cg_solver
+[9.686s] -- Install configuration: ""
+[9.687s] -- Installing: /project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node
+[9.699s] -- Set runtime path of "/project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node" to ""
+[9.699s] -- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver
+[9.700s] -- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver
+[9.700s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh
+[9.700s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv
+[9.700s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.sh
+[9.700s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.dsv
+[9.700s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.bash
+[9.700s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.sh
+[9.701s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.zsh
+[9.701s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.dsv
+[9.701s] -- Installing: /project_ws/install/cg_solver/share/cg_solver/package.dsv
+[9.701s] -- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/packages/cg_solver
+[9.701s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake
+[9.701s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake
+[9.701s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/package.xml
+[9.703s] Invoked command in '/project_ws/build/cg_solver' returned '0': CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble /usr/bin/cmake --install /project_ws/build/cg_solver

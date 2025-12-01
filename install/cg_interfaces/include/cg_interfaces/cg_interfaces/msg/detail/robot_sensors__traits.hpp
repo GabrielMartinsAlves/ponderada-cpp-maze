@@ -2,9 +2,6 @@
 // with input from cg_interfaces:msg/RobotSensors.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "cg_interfaces/msg/robot_sensors.hpp"
-
-
 #ifndef CG_INTERFACES__MSG__DETAIL__ROBOT_SENSORS__TRAITS_HPP_
 #define CG_INTERFACES__MSG__DETAIL__ROBOT_SENSORS__TRAITS_HPP_
 

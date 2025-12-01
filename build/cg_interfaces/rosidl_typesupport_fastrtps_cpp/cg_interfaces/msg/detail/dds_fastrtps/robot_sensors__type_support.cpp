@@ -2,10 +2,8 @@
 // with input from cg_interfaces:msg/RobotSensors.idl
 // generated code does not contain a copyright notice
 #include "cg_interfaces/msg/detail/robot_sensors__rosidl_typesupport_fastrtps_cpp.hpp"
-#include "cg_interfaces/msg/detail/robot_sensors__functions.h"
 #include "cg_interfaces/msg/detail/robot_sensors__struct.hpp"
 
-#include <cstddef>
 #include <limits>
 #include <stdexcept>
 #include <string>
@@ -13,7 +11,6 @@
 #include "rosidl_typesupport_fastrtps_cpp/identifier.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support_decl.hpp"
-#include "rosidl_typesupport_fastrtps_cpp/serialization_helpers.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/wstring_conversion.hpp"
 #include "fastcdr/Cdr.h"
 
@@ -29,7 +26,6 @@ namespace msg
 namespace typesupport_fastrtps_cpp
 {
 
-
 bool
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_cg_interfaces
 cdr_serialize(
@@ -38,28 +34,20 @@ cdr_serialize(
 {
   // Member: up
   cdr << ros_message.up;
-
   // Member: down
   cdr << ros_message.down;
-
   // Member: left
   cdr << ros_message.left;
-
   // Member: right
   cdr << ros_message.right;
-
   // Member: up_left
   cdr << ros_message.up_left;
-
   // Member: up_right
   cdr << ros_message.up_right;
-
   // Member: down_left
   cdr << ros_message.down_left;
-
   // Member: down_right
   cdr << ros_message.down_right;
-
   return true;
 }
 
@@ -96,7 +84,6 @@ cdr_deserialize(
   return true;
 }  // NOLINT(readability/fn_size)
 
-
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_cg_interfaces
 get_serialized_size(
@@ -114,37 +101,30 @@ get_serialized_size(
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.up.size() + 1);
-
   // Member: down
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.down.size() + 1);
-
   // Member: left
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.left.size() + 1);
-
   // Member: right
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.right.size() + 1);
-
   // Member: up_left
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.up_left.size() + 1);
-
   // Member: up_right
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.up_right.size() + 1);
-
   // Member: down_left
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message.down_left.size() + 1);
-
   // Member: down_right
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
@@ -152,7 +132,6 @@ get_serialized_size(
 
   return current_alignment - initial_alignment;
 }
-
 
 size_t
 ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_cg_interfaces
@@ -173,9 +152,11 @@ max_serialized_size_RobotSensors(
   full_bounded = true;
   is_plain = true;
 
+
   // Member: up
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -184,9 +165,11 @@ max_serialized_size_RobotSensors(
         1;
     }
   }
+
   // Member: down
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -195,9 +178,11 @@ max_serialized_size_RobotSensors(
         1;
     }
   }
+
   // Member: left
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -206,9 +191,11 @@ max_serialized_size_RobotSensors(
         1;
     }
   }
+
   // Member: right
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -217,9 +204,11 @@ max_serialized_size_RobotSensors(
         1;
     }
   }
+
   // Member: up_left
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -228,9 +217,11 @@ max_serialized_size_RobotSensors(
         1;
     }
   }
+
   // Member: up_right
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -239,9 +230,11 @@ max_serialized_size_RobotSensors(
         1;
     }
   }
+
   // Member: down_left
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -250,9 +243,11 @@ max_serialized_size_RobotSensors(
         1;
     }
   }
+
   // Member: down_right
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -277,227 +272,6 @@ max_serialized_size_RobotSensors(
 
   return ret_val;
 }
-
-bool
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_cg_interfaces
-cdr_serialize_key(
-  const cg_interfaces::msg::RobotSensors & ros_message,
-  eprosima::fastcdr::Cdr & cdr)
-{
-  // Member: up
-  cdr << ros_message.up;
-
-  // Member: down
-  cdr << ros_message.down;
-
-  // Member: left
-  cdr << ros_message.left;
-
-  // Member: right
-  cdr << ros_message.right;
-
-  // Member: up_left
-  cdr << ros_message.up_left;
-
-  // Member: up_right
-  cdr << ros_message.up_right;
-
-  // Member: down_left
-  cdr << ros_message.down_left;
-
-  // Member: down_right
-  cdr << ros_message.down_right;
-
-  return true;
-}
-
-size_t
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_cg_interfaces
-get_serialized_size_key(
-  const cg_interfaces::msg::RobotSensors & ros_message,
-  size_t current_alignment)
-{
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  (void)padding;
-  (void)wchar_size;
-
-  // Member: up
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.up.size() + 1);
-
-  // Member: down
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.down.size() + 1);
-
-  // Member: left
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.left.size() + 1);
-
-  // Member: right
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.right.size() + 1);
-
-  // Member: up_left
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.up_left.size() + 1);
-
-  // Member: up_right
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.up_right.size() + 1);
-
-  // Member: down_left
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.down_left.size() + 1);
-
-  // Member: down_right
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message.down_right.size() + 1);
-
-  return current_alignment - initial_alignment;
-}
-
-size_t
-ROSIDL_TYPESUPPORT_FASTRTPS_CPP_PUBLIC_cg_interfaces
-max_serialized_size_key_RobotSensors(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment)
-{
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
-  (void)padding;
-  (void)wchar_size;
-
-  full_bounded = true;
-  is_plain = true;
-
-  // Member: up
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: down
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: left
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: right
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: up_left
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: up_right
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: down_left
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Member: down_right
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = cg_interfaces::msg::RobotSensors;
-    is_plain =
-      (
-      offsetof(DataType, down_right) +
-      last_member_size
-      ) == ret_val;
-  }
-
-  return ret_val;
-}
-
 
 static bool _RobotSensors__cdr_serialize(
   const void * untyped_ros_message,
@@ -548,17 +322,13 @@ static message_type_support_callbacks_t _RobotSensors__callbacks = {
   _RobotSensors__cdr_serialize,
   _RobotSensors__cdr_deserialize,
   _RobotSensors__get_serialized_size,
-  _RobotSensors__max_serialized_size,
-  nullptr
+  _RobotSensors__max_serialized_size
 };
 
 static rosidl_message_type_support_t _RobotSensors__handle = {
   rosidl_typesupport_fastrtps_cpp::typesupport_identifier,
   &_RobotSensors__callbacks,
   get_message_typesupport_handle_function,
-  &cg_interfaces__msg__RobotSensors__get_type_hash,
-  &cg_interfaces__msg__RobotSensors__get_type_description,
-  &cg_interfaces__msg__RobotSensors__get_type_description_sources,
 };
 
 }  // namespace typesupport_fastrtps_cpp

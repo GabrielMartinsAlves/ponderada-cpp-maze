@@ -1,0 +1,21 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/autonomous_navigator_node.dir/src/autonomous_navigator_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable autonomous_navigator_node[0m
+[100%] Built target autonomous_navigator_node
+-- Install configuration: ""
+-- Installing: /project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node
+-- Set runtime path of "/project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node" to ""
+-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver
+-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.sh
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.dsv
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.bash
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.sh
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.zsh
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.dsv
+-- Installing: /project_ws/install/cg_solver/share/cg_solver/package.dsv
+-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/packages/cg_solver
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake
+-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/package.xml

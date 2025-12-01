@@ -1,0 +1,3 @@
+# Request
+bool is_random
+string map_name  # e.g., "1.csv". If empty and is_random is false, resets current map.

@@ -2,7 +2,13 @@ msg/RobotSensors.idl
 msg/RobotSensors.msg
 srv/GetMap.idl
 srv/GetMap.srv
+srv/GetMap_Request.msg
+srv/GetMap_Response.msg
 srv/MoveCmd.idl
 srv/MoveCmd.srv
+srv/MoveCmd_Request.msg
+srv/MoveCmd_Response.msg
 srv/Reset.idl
 srv/Reset.srv
+srv/Reset_Request.msg
+srv/Reset_Response.msg

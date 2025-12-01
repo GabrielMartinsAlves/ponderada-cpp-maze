@@ -1,0 +1,4 @@
+Invoking command in '/project_ws/build/cg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /project_ws/build/cg_interfaces -- -j8 -l8
+Invoked command in '/project_ws/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /project_ws/build/cg_interfaces -- -j8 -l8
+Invoking command in '/project_ws/build/cg_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /project_ws/build/cg_interfaces
+Invoked command in '/project_ws/build/cg_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /project_ws/build/cg_interfaces

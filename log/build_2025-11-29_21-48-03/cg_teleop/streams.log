@@ -1,0 +1,37 @@
+[0.418s] Invoking command in '/project_ws/src/cg_teleop': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/build/cg_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg_teleop build --build-base /project_ws/build/cg_teleop/build install --record /project_ws/build/cg_teleop/install.log --single-version-externally-managed install_data
+[0.526s] running egg_info
+[0.527s] creating ../../build/cg_teleop/cg_teleop.egg-info
+[0.527s] writing ../../build/cg_teleop/cg_teleop.egg-info/PKG-INFO
+[0.527s] writing dependency_links to ../../build/cg_teleop/cg_teleop.egg-info/dependency_links.txt
+[0.527s] writing entry points to ../../build/cg_teleop/cg_teleop.egg-info/entry_points.txt
+[0.527s] writing requirements to ../../build/cg_teleop/cg_teleop.egg-info/requires.txt
+[0.527s] writing top-level names to ../../build/cg_teleop/cg_teleop.egg-info/top_level.txt
+[0.527s] writing manifest file '../../build/cg_teleop/cg_teleop.egg-info/SOURCES.txt'
+[0.528s] reading manifest file '../../build/cg_teleop/cg_teleop.egg-info/SOURCES.txt'
+[0.528s] writing manifest file '../../build/cg_teleop/cg_teleop.egg-info/SOURCES.txt'
+[0.528s] running build
+[0.528s] running build_py
+[0.529s] creating /project_ws/build/cg_teleop/build
+[0.529s] creating /project_ws/build/cg_teleop/build/lib
+[0.529s] creating /project_ws/build/cg_teleop/build/lib/cg_teleop
+[0.529s] copying cg_teleop/__init__.py -> /project_ws/build/cg_teleop/build/lib/cg_teleop
+[0.529s] copying cg_teleop/teleop_node.py -> /project_ws/build/cg_teleop/build/lib/cg_teleop
+[0.529s] running install
+[0.529s] running install_lib
+[0.529s] creating /project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop
+[0.530s] copying /project_ws/build/cg_teleop/build/lib/cg_teleop/__init__.py -> /project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop
+[0.530s] copying /project_ws/build/cg_teleop/build/lib/cg_teleop/teleop_node.py -> /project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop
+[0.530s] byte-compiling /project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop/__init__.py to __init__.cpython-310.pyc
+[0.530s] byte-compiling /project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop/teleop_node.py to teleop_node.cpython-310.pyc
+[0.531s] running install_data
+[0.531s] creating /project_ws/install/cg_teleop/share/ament_index
+[0.531s] creating /project_ws/install/cg_teleop/share/ament_index/resource_index
+[0.531s] creating /project_ws/install/cg_teleop/share/ament_index/resource_index/packages
+[0.531s] copying resource/cg_teleop -> /project_ws/install/cg_teleop/share/ament_index/resource_index/packages
+[0.531s] copying package.xml -> /project_ws/install/cg_teleop/share/cg_teleop
+[0.531s] running install_egg_info
+[0.533s] Copying ../../build/cg_teleop/cg_teleop.egg-info to /project_ws/install/cg_teleop/lib/python3.10/site-packages/cg_teleop-0.0.0-py3.10.egg-info
+[0.533s] running install_scripts
+[0.547s] Installing teleop_keyboard script to /project_ws/install/cg_teleop/lib/cg_teleop
+[0.547s] writing list of installed files to '/project_ws/build/cg_teleop/install.log'
+[0.564s] Invoked command in '/project_ws/src/cg_teleop' returned '0': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/build/cg_teleop/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg_teleop build --build-base /project_ws/build/cg_teleop/build install --record /project_ws/build/cg_teleop/install.log --single-version-externally-managed install_data

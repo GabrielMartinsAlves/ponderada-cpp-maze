@@ -1,0 +1,22 @@
+running egg_info
+writing ../../build/cg/cg.egg-info/PKG-INFO
+writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt
+writing entry points to ../../build/cg/cg.egg-info/entry_points.txt
+writing requirements to ../../build/cg/cg.egg-info/requires.txt
+writing top-level names to ../../build/cg/cg.egg-info/top_level.txt
+reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+running build
+running build_py
+running install
+running install_lib
+running install_data
+running install_egg_info
+removing '/project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/cg/cg.egg-info to /project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing edit script to /project_ws/install/cg/lib/cg
+Installing maze script to /project_ws/install/cg/lib/cg
+Installing test script to /project_ws/install/cg/lib/cg
+writing list of installed files to '/project_ws/build/cg/install.log'

@@ -2,9 +2,6 @@
 // with input from cg_interfaces:msg/RobotSensors.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "cg_interfaces/msg/robot_sensors.h"
-
-
 #ifndef CG_INTERFACES__MSG__DETAIL__ROBOT_SENSORS__STRUCT_H_
 #define CG_INTERFACES__MSG__DETAIL__ROBOT_SENSORS__STRUCT_H_
 
@@ -16,6 +13,7 @@ extern "C"
 #include <stdbool.h>
 #include <stddef.h>
 #include <stdint.h>
+
 
 // Constants defined in the message
 

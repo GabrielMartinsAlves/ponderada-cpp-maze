@@ -1,0 +1,106 @@
+[0.000000] (-) TimerEvent: {}
+[0.000240] (-) JobUnselected: {'identifier': 'cg'}
+[0.000422] (-) JobUnselected: {'identifier': 'cg_interfaces'}
+[0.000508] (-) JobUnselected: {'identifier': 'cg_teleop'}
+[0.000589] (cg_solver) JobQueued: {'identifier': 'cg_solver', 'dependencies': OrderedDict([('cg_interfaces', '/project_ws/install/cg_interfaces')])}
+[0.000628] (cg_solver) JobStarted: {'identifier': 'cg_solver'}
+[0.007228] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'cmake'}
+[0.007605] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'build'}
+[0.008054] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--build', '/project_ws/build/cg_solver', '--', '-j8', '-l8'], 'cwd': '/project_ws/build/cg_solver', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/project_ws/log'), ('COLCON_PREFIX_PATH', '/project_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.Xauthority'), ('AMENT_PREFIX_PATH', '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble'), ('PWD', '/project_ws/build/cg_solver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble')]), 'shell': False}
+[0.044688] (cg_solver) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/autonomous_navigator_node.dir/src/autonomous_navigator_node.cpp.o\x1b[0m\n'}
+[0.099866] (-) TimerEvent: {}
+[0.200154] (-) TimerEvent: {}
+[0.300478] (-) TimerEvent: {}
+[0.400785] (-) TimerEvent: {}
+[0.501168] (-) TimerEvent: {}
+[0.601540] (-) TimerEvent: {}
+[0.701813] (-) TimerEvent: {}
+[0.802074] (-) TimerEvent: {}
+[0.902324] (-) TimerEvent: {}
+[1.002628] (-) TimerEvent: {}
+[1.102926] (-) TimerEvent: {}
+[1.203256] (-) TimerEvent: {}
+[1.303604] (-) TimerEvent: {}
+[1.404024] (-) TimerEvent: {}
+[1.504322] (-) TimerEvent: {}
+[1.604606] (-) TimerEvent: {}
+[1.704847] (-) TimerEvent: {}
+[1.805111] (-) TimerEvent: {}
+[1.905422] (-) TimerEvent: {}
+[2.005691] (-) TimerEvent: {}
+[2.106057] (-) TimerEvent: {}
+[2.206330] (-) TimerEvent: {}
+[2.306602] (-) TimerEvent: {}
+[2.406899] (-) TimerEvent: {}
+[2.507148] (-) TimerEvent: {}
+[2.607488] (-) TimerEvent: {}
+[2.707744] (-) TimerEvent: {}
+[2.808065] (-) TimerEvent: {}
+[2.908328] (-) TimerEvent: {}
+[3.008607] (-) TimerEvent: {}
+[3.108953] (-) TimerEvent: {}
+[3.209218] (-) TimerEvent: {}
+[3.309505] (-) TimerEvent: {}
+[3.409781] (-) TimerEvent: {}
+[3.510059] (-) TimerEvent: {}
+[3.610323] (-) TimerEvent: {}
+[3.710629] (-) TimerEvent: {}
+[3.810846] (-) TimerEvent: {}
+[3.911087] (-) TimerEvent: {}
+[4.011431] (-) TimerEvent: {}
+[4.111721] (-) TimerEvent: {}
+[4.211972] (-) TimerEvent: {}
+[4.312199] (-) TimerEvent: {}
+[4.412458] (-) TimerEvent: {}
+[4.512721] (-) TimerEvent: {}
+[4.612975] (-) TimerEvent: {}
+[4.713324] (-) TimerEvent: {}
+[4.813575] (-) TimerEvent: {}
+[4.913827] (-) TimerEvent: {}
+[5.014164] (-) TimerEvent: {}
+[5.114507] (-) TimerEvent: {}
+[5.214845] (-) TimerEvent: {}
+[5.315176] (-) TimerEvent: {}
+[5.415521] (-) TimerEvent: {}
+[5.515861] (-) TimerEvent: {}
+[5.616194] (-) TimerEvent: {}
+[5.716556] (-) TimerEvent: {}
+[5.816893] (-) TimerEvent: {}
+[5.917234] (-) TimerEvent: {}
+[6.017585] (-) TimerEvent: {}
+[6.117937] (-) TimerEvent: {}
+[6.218225] (-) TimerEvent: {}
+[6.318555] (-) TimerEvent: {}
+[6.418934] (-) TimerEvent: {}
+[6.519267] (-) TimerEvent: {}
+[6.619617] (-) TimerEvent: {}
+[6.669780] (cg_solver) StdoutLine: {'line': b'\x1b[32m\x1b[1mLinking CXX executable autonomous_navigator_node\x1b[0m\n'}
+[6.719746] (-) TimerEvent: {}
+[6.820016] (-) TimerEvent: {}
+[6.920376] (-) TimerEvent: {}
+[6.987149] (cg_solver) StdoutLine: {'line': b'Built target autonomous_navigator_node\n'}
+[6.993862] (cg_solver) CommandEnded: {'returncode': 0}
+[6.994244] (cg_solver) JobProgress: {'identifier': 'cg_solver', 'progress': 'install'}
+[6.999312] (cg_solver) Command: {'cmd': ['/usr/bin/cmake', '--install', '/project_ws/build/cg_solver'], 'cwd': '/project_ws/build/cg_solver', 'env': OrderedDict([('HOSTNAME', 'fedora'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/project_ws/install/cg_interfaces/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/'), ('ROS_PYTHON_VERSION', '3'), ('ROS_LOG_DIR', '/project_ws/log'), ('COLCON_PREFIX_PATH', '/project_ws/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/tmp/.Xauthority'), ('AMENT_PREFIX_PATH', '/project_ws/install/cg_teleop:/project_ws/install/cg_solver:/project_ws/install/cg:/project_ws/install/cg_interfaces:/opt/ros/humble'), ('PWD', '/project_ws/build/cg_solver'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/project_ws/install/cg_teleop/lib/python3.10/site-packages:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/project_ws/install/cg_interfaces:/project_ws/install/cg_solver:/project_ws/install/cg_teleop:/project_ws/install/cg:/opt/ros/humble')]), 'shell': False}
+[7.003872] (cg_solver) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.003981] (cg_solver) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node\n'}
+[7.010376] (cg_solver) StdoutLine: {'line': b'-- Set runtime path of "/project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node" to ""\n'}
+[7.010561] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver\n'}
+[7.010689] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver\n'}
+[7.010785] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh\n'}
+[7.010864] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv\n'}
+[7.010951] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.sh\n'}
+[7.011048] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.dsv\n'}
+[7.011114] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.bash\n'}
+[7.011175] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.sh\n'}
+[7.011237] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.zsh\n'}
+[7.011295] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.dsv\n'}
+[7.011352] (cg_solver) StdoutLine: {'line': b'-- Installing: /project_ws/install/cg_solver/share/cg_solver/package.dsv\n'}
+[7.011406] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/packages/cg_solver\n'}
+[7.011459] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake\n'}
+[7.011516] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake\n'}
+[7.011572] (cg_solver) StdoutLine: {'line': b'-- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/package.xml\n'}
+[7.012556] (cg_solver) CommandEnded: {'returncode': 0}
+[7.020431] (-) TimerEvent: {}
+[7.024408] (cg_solver) JobEnded: {'identifier': 'cg_solver', 'rc': 0}
+[7.024811] (-) EventReactorShutdown: {}

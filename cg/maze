@@ -1,3 +1,0 @@
-#!/usr/bin/env bash
-SCRIPT_DIR="$(dirname "$0")"
-exec python3 "$SCRIPT_DIR/maze.py" "$@"

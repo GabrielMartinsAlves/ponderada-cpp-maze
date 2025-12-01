@@ -4,7 +4,6 @@
 #ifndef CG_INTERFACES__SRV__GET_MAP_HPP_
 #define CG_INTERFACES__SRV__GET_MAP_HPP_
 
-#include <cstdint>
 #include "cg_interfaces/srv/detail/get_map__struct.hpp"
 #include "cg_interfaces/srv/detail/get_map__builder.hpp"
 #include "cg_interfaces/srv/detail/get_map__traits.hpp"

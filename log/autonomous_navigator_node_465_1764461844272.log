@@ -1,0 +1,11 @@
+[INFO] [1764461844.779614915] [cg_autonomous_navigator]: Tentando conectar ao serviço /get_map...
+[INFO] [1764461844.779770122] [cg_autonomous_navigator]: Serviço /get_map disponível, enviando request...
+[INFO] [1764461845.279625805] [cg_autonomous_navigator]: Iniciando mapeamento exploratório...
+[INFO] [1764461845.279690460] [cg_autonomous_navigator]: Buscando vizinhos para a célula (0, 0)
+[INFO] [1764461845.279698731] [cg_autonomous_navigator]:   - Checando vizinho (0, 1): é livre? não
+[INFO] [1764461845.279703512] [cg_autonomous_navigator]:   - Checando vizinho (1, 0): é livre? não
+[INFO] [1764461845.279707490] [cg_autonomous_navigator]:   - Checando vizinho (0, -1): é livre? não
+[INFO] [1764461845.279711285] [cg_autonomous_navigator]:   - Checando vizinho (-1, 0): é livre? não
+[INFO] [1764461845.779638304] [cg_autonomous_navigator]: Fila de exploração vazia, mas o mapa não está completo. Encerrando mapeamento.
+[INFO] [1764461846.279660335] [cg_autonomous_navigator]: Caminho calculado com 1 passos.
+[INFO] [1764461846.279710031] [cg_autonomous_navigator]: Robô chegou ao alvo!

@@ -1,0 +1,39 @@
+[INFO] [1764513418.603992305] [cg_autonomous_navigator]: Tentando conectar ao serviço /get_map...
+[WARN] [1764513428.604211767] [cg_autonomous_navigator]: Aguardando serviço /get_map...
+[INFO] [1764513428.604350507] [cg_autonomous_navigator]: Tentando conectar ao serviço /get_map...
+[INFO] [1764513431.458511971] [cg_autonomous_navigator]: Serviço /get_map disponível, enviando request...
+[INFO] [1764513431.662234198] [cg_autonomous_navigator]: Mapa recebido: 29x29
+[INFO] [1764513432.104747502] [cg_autonomous_navigator]: Caminho calculado com 165 passos.
+[INFO] [1764513432.106687361] [cg_autonomous_navigator]: Movimento para (1, 2) bem-sucedido.
+[WARN] [1764513432.604214116] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513433.104169453] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513433.604157346] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513434.104161980] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513434.604163775] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513435.104199678] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513435.604198082] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513436.104267613] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513436.604200036] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513437.104223144] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513437.604207525] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513438.104238010] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513438.604231339] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513439.104226402] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513439.604291392] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513440.104267453] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513440.604249973] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513441.104247149] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513441.604267316] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513442.104243013] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513442.604270441] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513443.104347325] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513443.604267207] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513444.104361431] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513444.604291465] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513445.104367367] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513445.604306949] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513446.104297443] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513446.604279167] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513447.104298477] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[WARN] [1764513447.604292048] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513447.736244722] [rclcpp]: signal_handler(signum=2)

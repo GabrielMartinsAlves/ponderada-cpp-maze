@@ -1,0 +1,2 @@
+[WARN] [1764454242.894117896] [Culling_Games]: New subscription discovered on topic '/culling_games/robot_sensors', requesting incompatible QoS. No messages will be sent to it. Last incompatible policy: RELIABILITY
+[INFO] [1764454367.969398953] [Culling_Games]: KeyboardInterrupt received, shutting down.

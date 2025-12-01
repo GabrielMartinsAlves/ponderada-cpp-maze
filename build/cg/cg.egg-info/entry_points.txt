@@ -1,0 +1,5 @@
+[console_scripts]
+edit = cg.main:editor
+maze = cg.main:game
+test = cg.teste:main
+

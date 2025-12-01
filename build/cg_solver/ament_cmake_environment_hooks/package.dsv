@@ -1,0 +1,4 @@
+source;share/cg_solver/local_setup.bash
+source;share/cg_solver/local_setup.dsv
+source;share/cg_solver/local_setup.sh
+source;share/cg_solver/local_setup.zsh

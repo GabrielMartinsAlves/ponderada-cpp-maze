@@ -5,11 +5,9 @@
 
 
 #include <cassert>
-#include <cstddef>
 #include <limits>
 #include <string>
 #include "rosidl_typesupport_fastrtps_c/identifier.h"
-#include "rosidl_typesupport_fastrtps_c/serialization_helpers.hpp"
 #include "rosidl_typesupport_fastrtps_c/wstring_conversion.hpp"
 #include "rosidl_typesupport_fastrtps_cpp/message_type_support.h"
 #include "cg_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h"
@@ -44,12 +42,15 @@ extern "C"
 
 using _RobotSensors__ros_msg_type = cg_interfaces__msg__RobotSensors;
 
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cg_interfaces
-bool cdr_serialize_cg_interfaces__msg__RobotSensors(
-  const cg_interfaces__msg__RobotSensors * ros_message,
+static bool _RobotSensors__cdr_serialize(
+  const void * untyped_ros_message,
   eprosima::fastcdr::Cdr & cdr)
 {
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  const _RobotSensors__ros_msg_type * ros_message = static_cast<const _RobotSensors__ros_msg_type *>(untyped_ros_message);
   // Field name: up
   {
     const rosidl_runtime_c__String * str = &ros_message->up;
@@ -165,11 +166,15 @@ bool cdr_serialize_cg_interfaces__msg__RobotSensors(
   return true;
 }
 
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cg_interfaces
-bool cdr_deserialize_cg_interfaces__msg__RobotSensors(
+static bool _RobotSensors__cdr_deserialize(
   eprosima::fastcdr::Cdr & cdr,
-  cg_interfaces__msg__RobotSensors * ros_message)
+  void * untyped_ros_message)
 {
+  if (!untyped_ros_message) {
+    fprintf(stderr, "ros message handle is null\n");
+    return false;
+  }
+  _RobotSensors__ros_msg_type * ros_message = static_cast<_RobotSensors__ros_msg_type *>(untyped_ros_message);
   // Field name: up
   {
     std::string tmp;
@@ -301,7 +306,6 @@ bool cdr_deserialize_cg_interfaces__msg__RobotSensors(
   return true;
 }  // NOLINT(readability/fn_size)
 
-
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cg_interfaces
 size_t get_serialized_size_cg_interfaces__msg__RobotSensors(
   const void * untyped_ros_message,
@@ -316,42 +320,35 @@ size_t get_serialized_size_cg_interfaces__msg__RobotSensors(
   (void)padding;
   (void)wchar_size;
 
-  // Field name: up
+  // field.name up
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->up.size + 1);
-
-  // Field name: down
+  // field.name down
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->down.size + 1);
-
-  // Field name: left
+  // field.name left
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->left.size + 1);
-
-  // Field name: right
+  // field.name right
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->right.size + 1);
-
-  // Field name: up_left
+  // field.name up_left
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->up_left.size + 1);
-
-  // Field name: up_right
+  // field.name up_right
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->up_right.size + 1);
-
-  // Field name: down_left
+  // field.name down_left
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->down_left.size + 1);
-
-  // Field name: down_right
+  // field.name down_right
   current_alignment += padding +
     eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
     (ros_message->down_right.size + 1);
@@ -359,6 +356,12 @@ size_t get_serialized_size_cg_interfaces__msg__RobotSensors(
   return current_alignment - initial_alignment;
 }
 
+static uint32_t _RobotSensors__get_serialized_size(const void * untyped_ros_message)
+{
+  return static_cast<uint32_t>(
+    get_serialized_size_cg_interfaces__msg__RobotSensors(
+      untyped_ros_message, 0));
+}
 
 ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cg_interfaces
 size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
@@ -378,9 +381,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
   full_bounded = true;
   is_plain = true;
 
-  // Field name: up
+  // member: up
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -389,10 +393,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
         1;
     }
   }
-
-  // Field name: down
+  // member: down
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -401,10 +405,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
         1;
     }
   }
-
-  // Field name: left
+  // member: left
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -413,10 +417,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
         1;
     }
   }
-
-  // Field name: right
+  // member: right
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -425,10 +429,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
         1;
     }
   }
-
-  // Field name: up_left
+  // member: up_left
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -437,10 +441,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
         1;
     }
   }
-
-  // Field name: up_right
+  // member: up_right
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -449,10 +453,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
         1;
     }
   }
-
-  // Field name: down_left
+  // member: down_left
   {
     size_t array_size = 1;
+
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -461,317 +465,10 @@ size_t max_serialized_size_cg_interfaces__msg__RobotSensors(
         1;
     }
   }
-
-  // Field name: down_right
+  // member: down_right
   {
     size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
 
-
-  size_t ret_val = current_alignment - initial_alignment;
-  if (is_plain) {
-    // All members are plain, and type is not empty.
-    // We still need to check that the in-memory alignment
-    // is the same as the CDR mandated alignment.
-    using DataType = cg_interfaces__msg__RobotSensors;
-    is_plain =
-      (
-      offsetof(DataType, down_right) +
-      last_member_size
-      ) == ret_val;
-  }
-  return ret_val;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cg_interfaces
-bool cdr_serialize_key_cg_interfaces__msg__RobotSensors(
-  const cg_interfaces__msg__RobotSensors * ros_message,
-  eprosima::fastcdr::Cdr & cdr)
-{
-  // Field name: up
-  {
-    const rosidl_runtime_c__String * str = &ros_message->up;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: down
-  {
-    const rosidl_runtime_c__String * str = &ros_message->down;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: left
-  {
-    const rosidl_runtime_c__String * str = &ros_message->left;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: right
-  {
-    const rosidl_runtime_c__String * str = &ros_message->right;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: up_left
-  {
-    const rosidl_runtime_c__String * str = &ros_message->up_left;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: up_right
-  {
-    const rosidl_runtime_c__String * str = &ros_message->up_right;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: down_left
-  {
-    const rosidl_runtime_c__String * str = &ros_message->down_left;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  // Field name: down_right
-  {
-    const rosidl_runtime_c__String * str = &ros_message->down_right;
-    if (str->capacity == 0 || str->capacity <= str->size) {
-      fprintf(stderr, "string capacity not greater than size\n");
-      return false;
-    }
-    if (str->data[str->size] != '\0') {
-      fprintf(stderr, "string not null-terminated\n");
-      return false;
-    }
-    cdr << str->data;
-  }
-
-  return true;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cg_interfaces
-size_t get_serialized_size_key_cg_interfaces__msg__RobotSensors(
-  const void * untyped_ros_message,
-  size_t current_alignment)
-{
-  const _RobotSensors__ros_msg_type * ros_message = static_cast<const _RobotSensors__ros_msg_type *>(untyped_ros_message);
-  (void)ros_message;
-
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  (void)padding;
-  (void)wchar_size;
-
-  // Field name: up
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->up.size + 1);
-
-  // Field name: down
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->down.size + 1);
-
-  // Field name: left
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->left.size + 1);
-
-  // Field name: right
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->right.size + 1);
-
-  // Field name: up_left
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->up_left.size + 1);
-
-  // Field name: up_right
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->up_right.size + 1);
-
-  // Field name: down_left
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->down_left.size + 1);
-
-  // Field name: down_right
-  current_alignment += padding +
-    eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-    (ros_message->down_right.size + 1);
-
-  return current_alignment - initial_alignment;
-}
-
-ROSIDL_TYPESUPPORT_FASTRTPS_C_PUBLIC_cg_interfaces
-size_t max_serialized_size_key_cg_interfaces__msg__RobotSensors(
-  bool & full_bounded,
-  bool & is_plain,
-  size_t current_alignment)
-{
-  size_t initial_alignment = current_alignment;
-
-  const size_t padding = 4;
-  const size_t wchar_size = 4;
-  size_t last_member_size = 0;
-  (void)last_member_size;
-  (void)padding;
-  (void)wchar_size;
-
-  full_bounded = true;
-  is_plain = true;
-  // Field name: up
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: down
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: left
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: right
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: up_left
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: up_right
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: down_left
-  {
-    size_t array_size = 1;
-    full_bounded = false;
-    is_plain = false;
-    for (size_t index = 0; index < array_size; ++index) {
-      current_alignment += padding +
-        eprosima::fastcdr::Cdr::alignment(current_alignment, padding) +
-        1;
-    }
-  }
-
-  // Field name: down_right
-  {
-    size_t array_size = 1;
     full_bounded = false;
     is_plain = false;
     for (size_t index = 0; index < array_size; ++index) {
@@ -793,41 +490,8 @@ size_t max_serialized_size_key_cg_interfaces__msg__RobotSensors(
       last_member_size
       ) == ret_val;
   }
+
   return ret_val;
-}
-
-
-static bool _RobotSensors__cdr_serialize(
-  const void * untyped_ros_message,
-  eprosima::fastcdr::Cdr & cdr)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  const cg_interfaces__msg__RobotSensors * ros_message = static_cast<const cg_interfaces__msg__RobotSensors *>(untyped_ros_message);
-  (void)ros_message;
-  return cdr_serialize_cg_interfaces__msg__RobotSensors(ros_message, cdr);
-}
-
-static bool _RobotSensors__cdr_deserialize(
-  eprosima::fastcdr::Cdr & cdr,
-  void * untyped_ros_message)
-{
-  if (!untyped_ros_message) {
-    fprintf(stderr, "ros message handle is null\n");
-    return false;
-  }
-  cg_interfaces__msg__RobotSensors * ros_message = static_cast<cg_interfaces__msg__RobotSensors *>(untyped_ros_message);
-  (void)ros_message;
-  return cdr_deserialize_cg_interfaces__msg__RobotSensors(cdr, ros_message);
-}
-
-static uint32_t _RobotSensors__get_serialized_size(const void * untyped_ros_message)
-{
-  return static_cast<uint32_t>(
-    get_serialized_size_cg_interfaces__msg__RobotSensors(
-      untyped_ros_message, 0));
 }
 
 static size_t _RobotSensors__max_serialized_size(char & bounds_info)
@@ -852,17 +516,13 @@ static message_type_support_callbacks_t __callbacks_RobotSensors = {
   _RobotSensors__cdr_serialize,
   _RobotSensors__cdr_deserialize,
   _RobotSensors__get_serialized_size,
-  _RobotSensors__max_serialized_size,
-  nullptr
+  _RobotSensors__max_serialized_size
 };
 
 static rosidl_message_type_support_t _RobotSensors__type_support = {
   rosidl_typesupport_fastrtps_c__identifier,
   &__callbacks_RobotSensors,
   get_message_typesupport_handle_function,
-  &cg_interfaces__msg__RobotSensors__get_type_hash,
-  &cg_interfaces__msg__RobotSensors__get_type_description,
-  &cg_interfaces__msg__RobotSensors__get_type_description_sources,
 };
 
 const rosidl_message_type_support_t *

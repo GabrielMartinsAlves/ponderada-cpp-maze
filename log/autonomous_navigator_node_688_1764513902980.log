@@ -1,0 +1,29 @@
+[INFO] [1764513903.491266798] [cg_autonomous_navigator]: Tentando conectar ao serviço /get_map...
+[INFO] [1764513903.491421344] [cg_autonomous_navigator]: Serviço /get_map disponível, enviando request...
+[INFO] [1764513903.495423577] [cg_autonomous_navigator]: Mapa recebido: 29x29
+[INFO] [1764513903.992496206] [cg_autonomous_navigator]: Caminho calculado com 205 passos.
+[INFO] [1764513903.992543496] [cg_autonomous_navigator]: Tentando mover de (1, 1) para (1, 2)
+[INFO] [1764513903.994490775] [cg_autonomous_navigator]: Movimento para (1, 2) bem-sucedido.
+[INFO] [1764513904.491301825] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513904.491385044] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513904.991363873] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513904.991418789] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513905.491274948] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513905.491334707] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513905.991300045] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513905.991377762] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513906.491322896] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513906.491413053] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513906.991297645] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513906.991358915] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513907.491306535] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513907.491399954] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513907.991394911] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513907.991453000] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513908.491376630] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513908.491453578] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513908.991467154] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513908.991524167] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513909.491476581] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (1, 3)
+[WARN] [1764513909.491553316] [cg_autonomous_navigator]: Não foi possível determinar a direção para o alvo (1, 3)
+[INFO] [1764513909.806645407] [rclcpp]: signal_handler(signum=2)

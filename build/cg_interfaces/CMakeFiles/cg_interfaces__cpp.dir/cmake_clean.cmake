@@ -5,7 +5,6 @@ file(REMOVE_RECURSE
   "rosidl_generator_cpp/cg_interfaces/msg/detail/robot_sensors__traits.hpp"
   "rosidl_generator_cpp/cg_interfaces/msg/detail/robot_sensors__type_support.hpp"
   "rosidl_generator_cpp/cg_interfaces/msg/robot_sensors.hpp"
-  "rosidl_generator_cpp/cg_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp"
   "rosidl_generator_cpp/cg_interfaces/srv/detail/get_map__builder.hpp"
   "rosidl_generator_cpp/cg_interfaces/srv/detail/get_map__struct.hpp"
   "rosidl_generator_cpp/cg_interfaces/srv/detail/get_map__traits.hpp"

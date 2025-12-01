@@ -4,7 +4,6 @@
 #ifndef CG_INTERFACES__SRV__RESET_HPP_
 #define CG_INTERFACES__SRV__RESET_HPP_
 
-#include <cstdint>
 #include "cg_interfaces/srv/detail/reset__struct.hpp"
 #include "cg_interfaces/srv/detail/reset__builder.hpp"
 #include "cg_interfaces/srv/detail/reset__traits.hpp"

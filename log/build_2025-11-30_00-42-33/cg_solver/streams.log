@@ -1,0 +1,26 @@
+[0.008s] Invoking command in '/project_ws/build/cg_solver': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /project_ws/build/cg_solver -- -j8 -l8
+[0.039s] [35m[1mConsolidate compiler generated dependencies of target autonomous_navigator_node[0m
+[0.054s] [ 50%] [32mBuilding CXX object CMakeFiles/autonomous_navigator_node.dir/src/autonomous_navigator_node.cpp.o[0m
+[6.521s] [100%] [32m[1mLinking CXX executable autonomous_navigator_node[0m
+[6.851s] [100%] Built target autonomous_navigator_node
+[6.859s] Invoked command in '/project_ws/build/cg_solver' returned '0': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /project_ws/build/cg_solver -- -j8 -l8
+[6.865s] Invoking command in '/project_ws/build/cg_solver': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /project_ws/build/cg_solver
+[6.869s] -- Install configuration: ""
+[6.869s] -- Installing: /project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node
+[6.877s] -- Set runtime path of "/project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node" to ""
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.sh
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/environment/path.dsv
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.bash
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.sh
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.zsh
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/local_setup.dsv
+[6.877s] -- Installing: /project_ws/install/cg_solver/share/cg_solver/package.dsv
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/ament_index/resource_index/packages/cg_solver
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake
+[6.877s] -- Up-to-date: /project_ws/install/cg_solver/share/cg_solver/package.xml
+[6.879s] Invoked command in '/project_ws/build/cg_solver' returned '0': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /project_ws/build/cg_solver

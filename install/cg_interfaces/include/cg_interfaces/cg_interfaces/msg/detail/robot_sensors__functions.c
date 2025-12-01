@@ -212,7 +212,7 @@ cg_interfaces__msg__RobotSensors__copy(
 }
 
 cg_interfaces__msg__RobotSensors *
-cg_interfaces__msg__RobotSensors__create(void)
+cg_interfaces__msg__RobotSensors__create()
 {
   rcutils_allocator_t allocator = rcutils_get_default_allocator();
   cg_interfaces__msg__RobotSensors * msg = (cg_interfaces__msg__RobotSensors *)allocator.allocate(sizeof(cg_interfaces__msg__RobotSensors), allocator.state);

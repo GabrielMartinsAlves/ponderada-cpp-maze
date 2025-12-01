@@ -1,0 +1,16 @@
+/project_ws/install/cg_solver/lib/cg_solver/autonomous_navigator_node
+/project_ws/install/cg_solver/share/ament_index/resource_index/package_run_dependencies/cg_solver
+/project_ws/install/cg_solver/share/ament_index/resource_index/parent_prefix_path/cg_solver
+/project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.sh
+/project_ws/install/cg_solver/share/cg_solver/environment/ament_prefix_path.dsv
+/project_ws/install/cg_solver/share/cg_solver/environment/path.sh
+/project_ws/install/cg_solver/share/cg_solver/environment/path.dsv
+/project_ws/install/cg_solver/share/cg_solver/local_setup.bash
+/project_ws/install/cg_solver/share/cg_solver/local_setup.sh
+/project_ws/install/cg_solver/share/cg_solver/local_setup.zsh
+/project_ws/install/cg_solver/share/cg_solver/local_setup.dsv
+/project_ws/install/cg_solver/share/cg_solver/package.dsv
+/project_ws/install/cg_solver/share/ament_index/resource_index/packages/cg_solver
+/project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig.cmake
+/project_ws/install/cg_solver/share/cg_solver/cmake/cg_solverConfig-version.cmake
+/project_ws/install/cg_solver/share/cg_solver/package.xml

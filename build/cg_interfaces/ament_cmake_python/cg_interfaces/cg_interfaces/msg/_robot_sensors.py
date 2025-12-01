@@ -2,13 +2,6 @@
 # with input from cg_interfaces:msg/RobotSensors.idl
 # generated code does not contain a copyright notice
 
-# This is being done at the module level and not on the instance level to avoid looking
-# for the same variable multiple times on each instance. This variable is not supposed to
-# change during runtime so it makes sense to only look for it once.
-from os import getenv
-
-ros_python_check_fields = getenv('ROS_PYTHON_CHECK_FIELDS', default='')
-
 
 # Import statements for member types
 
@@ -70,7 +63,6 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
         '_up_right',
         '_down_left',
         '_down_right',
-        '_check_fields',
     ]
 
     _fields_and_field_types = {
@@ -84,8 +76,6 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
         'down_right': 'string',
     }
 
-    # This attribute is used to store an rosidl_parser.definition variable
-    # related to the data type of each of the components the message.
     SLOT_TYPES = (
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
         rosidl_parser.definition.UnboundedString(),  # noqa: E501
@@ -98,14 +88,9 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
     )
 
     def __init__(self, **kwargs):
-        if 'check_fields' in kwargs:
-            self._check_fields = kwargs['check_fields']
-        else:
-            self._check_fields = ros_python_check_fields == '1'
-        if self._check_fields:
-            assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
-                'Invalid arguments passed to constructor: %s' % \
-                ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
+        assert all('_' + key in self.__slots__ for key in kwargs.keys()), \
+            'Invalid arguments passed to constructor: %s' % \
+            ', '.join(sorted(k for k in kwargs.keys() if '_' + k not in self.__slots__))
         self.up = kwargs.get('up', str())
         self.down = kwargs.get('down', str())
         self.left = kwargs.get('left', str())
@@ -120,7 +105,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
         typename.pop()
         typename.append(self.__class__.__name__)
         args = []
-        for s, t in zip(self.get_fields_and_field_types().keys(), self.SLOT_TYPES):
+        for s, t in zip(self.__slots__, self.SLOT_TYPES):
             field = getattr(self, s)
             fieldstr = repr(field)
             # We use Python array type for fields that can be directly stored
@@ -134,12 +119,11 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
                 if len(field) == 0:
                     fieldstr = '[]'
                 else:
-                    if self._check_fields:
-                        assert fieldstr.startswith('array(')
+                    assert fieldstr.startswith('array(')
                     prefix = "array('X', "
                     suffix = ')'
                     fieldstr = fieldstr[len(prefix):-len(suffix)]
-            args.append(s + '=' + fieldstr)
+            args.append(s[1:] + '=' + fieldstr)
         return '%s(%s)' % ('.'.join(typename), ', '.join(args))
 
     def __eq__(self, other):
@@ -175,7 +159,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @up.setter
     def up(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'up' field must be of type 'str'"
@@ -188,7 +172,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @down.setter
     def down(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'down' field must be of type 'str'"
@@ -201,7 +185,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @left.setter
     def left(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'left' field must be of type 'str'"
@@ -214,7 +198,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @right.setter
     def right(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'right' field must be of type 'str'"
@@ -227,7 +211,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @up_left.setter
     def up_left(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'up_left' field must be of type 'str'"
@@ -240,7 +224,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @up_right.setter
     def up_right(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'up_right' field must be of type 'str'"
@@ -253,7 +237,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @down_left.setter
     def down_left(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'down_left' field must be of type 'str'"
@@ -266,7 +250,7 @@ class RobotSensors(metaclass=Metaclass_RobotSensors):
 
     @down_right.setter
     def down_right(self, value):
-        if self._check_fields:
+        if __debug__:
             assert \
                 isinstance(value, str), \
                 "The 'down_right' field must be of type 'str'"

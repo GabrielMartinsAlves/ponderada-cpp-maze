@@ -2,9 +2,6 @@
 // with input from cg_interfaces:msg/RobotSensors.idl
 // generated code does not contain a copyright notice
 
-// IWYU pragma: private, include "cg_interfaces/msg/robot_sensors.h"
-
-
 #ifndef CG_INTERFACES__MSG__DETAIL__ROBOT_SENSORS__FUNCTIONS_H_
 #define CG_INTERFACES__MSG__DETAIL__ROBOT_SENSORS__FUNCTIONS_H_
 
@@ -16,12 +13,6 @@ extern "C"
 #include <stdbool.h>
 #include <stdlib.h>
 
-#include "rosidl_runtime_c/action_type_support_struct.h"
-#include "rosidl_runtime_c/message_type_support_struct.h"
-#include "rosidl_runtime_c/service_type_support_struct.h"
-#include "rosidl_runtime_c/type_description/type_description__struct.h"
-#include "rosidl_runtime_c/type_description/type_source__struct.h"
-#include "rosidl_runtime_c/type_hash.h"
 #include "rosidl_runtime_c/visibility_control.h"
 #include "cg_interfaces/msg/rosidl_generator_c__visibility_control.h"
 
@@ -62,7 +53,7 @@ cg_interfaces__msg__RobotSensors__fini(cg_interfaces__msg__RobotSensors * msg);
  */
 ROSIDL_GENERATOR_C_PUBLIC_cg_interfaces
 cg_interfaces__msg__RobotSensors *
-cg_interfaces__msg__RobotSensors__create(void);
+cg_interfaces__msg__RobotSensors__create();
 
 /// Destroy msg/RobotSensors message.
 /**
@@ -101,30 +92,6 @@ bool
 cg_interfaces__msg__RobotSensors__copy(
   const cg_interfaces__msg__RobotSensors * input,
   cg_interfaces__msg__RobotSensors * output);
-
-/// Retrieve pointer to the hash of the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_cg_interfaces
-const rosidl_type_hash_t *
-cg_interfaces__msg__RobotSensors__get_type_hash(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_cg_interfaces
-const rosidl_runtime_c__type_description__TypeDescription *
-cg_interfaces__msg__RobotSensors__get_type_description(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the single raw source text that defined this type.
-ROSIDL_GENERATOR_C_PUBLIC_cg_interfaces
-const rosidl_runtime_c__type_description__TypeSource *
-cg_interfaces__msg__RobotSensors__get_individual_type_description_source(
-  const rosidl_message_type_support_t * type_support);
-
-/// Retrieve pointer to the recursive raw sources that defined the description of this type.
-ROSIDL_GENERATOR_C_PUBLIC_cg_interfaces
-const rosidl_runtime_c__type_description__TypeSource__Sequence *
-cg_interfaces__msg__RobotSensors__get_type_description_sources(
-  const rosidl_message_type_support_t * type_support);
 
 /// Initialize array of msg/RobotSensors messages.
 /**

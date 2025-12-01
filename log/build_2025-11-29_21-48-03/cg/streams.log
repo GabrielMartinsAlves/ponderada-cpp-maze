@@ -1,0 +1,103 @@
+[0.421s] Invoking command in '/project_ws/src/cg': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /project_ws/build/cg/build install --record /project_ws/build/cg/install.log --single-version-externally-managed install_data
+[0.529s] running egg_info
+[0.529s] creating ../../build/cg/cg.egg-info
+[0.529s] writing ../../build/cg/cg.egg-info/PKG-INFO
+[0.529s] writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt
+[0.529s] writing entry points to ../../build/cg/cg.egg-info/entry_points.txt
+[0.529s] writing requirements to ../../build/cg/cg.egg-info/requires.txt
+[0.529s] writing top-level names to ../../build/cg/cg.egg-info/top_level.txt
+[0.529s] writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[0.530s] reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[0.530s] adding license file 'LICENSE'
+[0.532s] writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[0.532s] running build
+[0.532s] running build_py
+[0.532s] creating /project_ws/build/cg/build
+[0.532s] creating /project_ws/build/cg/build/lib
+[0.532s] creating /project_ws/build/cg/build/lib/cg
+[0.532s] copying cg/Editor.py -> /project_ws/build/cg/build/lib/cg
+[0.532s] copying cg/Game.py -> /project_ws/build/cg/build/lib/cg
+[0.532s] copying cg/Maze.py -> /project_ws/build/cg/build/lib/cg
+[0.532s] copying cg/Robot.py -> /project_ws/build/cg/build/lib/cg
+[0.532s] copying cg/__init__.py -> /project_ws/build/cg/build/lib/cg
+[0.532s] copying cg/main.py -> /project_ws/build/cg/build/lib/cg
+[0.533s] copying cg/teste.py -> /project_ws/build/cg/build/lib/cg
+[0.533s] creating /project_ws/build/cg/build/lib/cg/Utils
+[0.533s] copying cg/Utils/Csv.py -> /project_ws/build/cg/build/lib/cg/Utils
+[0.533s] copying cg/Utils/Finders.py -> /project_ws/build/cg/build/lib/cg/Utils
+[0.533s] copying cg/Utils/Grid.py -> /project_ws/build/cg/build/lib/cg/Utils
+[0.533s] copying cg/Utils/Screen.py -> /project_ws/build/cg/build/lib/cg/Utils
+[0.533s] copying cg/Utils/__init__.py -> /project_ws/build/cg/build/lib/cg/Utils
+[0.533s] running install
+[0.533s] running install_lib
+[0.534s] creating /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Editor.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Game.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Maze.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Robot.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] copying /project_ws/build/cg/build/lib/cg/__init__.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] copying /project_ws/build/cg/build/lib/cg/main.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] copying /project_ws/build/cg/build/lib/cg/teste.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+[0.534s] creating /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Utils/Csv.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Utils/Finders.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Utils/Grid.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Utils/Screen.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.534s] copying /project_ws/build/cg/build/lib/cg/Utils/__init__.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+[0.535s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Editor.py to Editor.cpython-310.pyc
+[0.535s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Game.py to Game.cpython-310.pyc
+[0.536s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Maze.py to Maze.cpython-310.pyc
+[0.536s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Robot.py to Robot.cpython-310.pyc
+[0.537s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/__init__.py to __init__.cpython-310.pyc
+[0.537s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/main.py to main.cpython-310.pyc
+[0.537s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/teste.py to teste.cpython-310.pyc
+[0.538s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Csv.py to Csv.cpython-310.pyc
+[0.538s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Finders.py to Finders.cpython-310.pyc
+[0.538s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Grid.py to Grid.cpython-310.pyc
+[0.538s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Screen.py to Screen.cpython-310.pyc
+[0.538s] byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/__init__.py to __init__.cpython-310.pyc
+[0.538s] running install_data
+[0.538s] creating /project_ws/install/cg/share/ament_index
+[0.538s] creating /project_ws/install/cg/share/ament_index/resource_index
+[0.539s] creating /project_ws/install/cg/share/ament_index/resource_index/packages
+[0.539s] copying resource/cg -> /project_ws/install/cg/share/ament_index/resource_index/packages
+[0.539s] copying package.xml -> /project_ws/install/cg/share/cg
+[0.539s] creating /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/1.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/10.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/2.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/3.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/4.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/5.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/6.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/7.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/8.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/9.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] copying maps/test.csv -> /project_ws/install/cg/share/cg/maps
+[0.539s] creating /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.539s] copying ../../lobotomy_kaisen/brain_damage.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.539s] copying ../../lobotomy_kaisen/cinema.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.539s] copying ../../lobotomy_kaisen/cook.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.540s] copying ../../lobotomy_kaisen/dabura.png -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.540s] copying ../../lobotomy_kaisen/dies_from_peak.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.540s] copying ../../lobotomy_kaisen/fax.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.540s] copying ../../lobotomy_kaisen/fax3.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.540s] copying ../../lobotomy_kaisen/freddy.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.541s] copying ../../lobotomy_kaisen/goatjo.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.541s] copying ../../lobotomy_kaisen/idwin.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.541s] copying ../../lobotomy_kaisen/megumi.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.541s] copying ../../lobotomy_kaisen/mental_damage.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.541s] copying ../../lobotomy_kaisen/mou.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.541s] copying ../../lobotomy_kaisen/potential_man.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.542s] copying ../../lobotomy_kaisen/remembered.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.542s] copying ../../lobotomy_kaisen/shibuya.jpeg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.542s] copying ../../lobotomy_kaisen/suksuk.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.542s] copying ../../lobotomy_kaisen/wuji.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+[0.542s] running install_egg_info
+[0.543s] Copying ../../build/cg/cg.egg-info to /project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info
+[0.544s] running install_scripts
+[0.557s] Installing edit script to /project_ws/install/cg/lib/cg
+[0.557s] Installing maze script to /project_ws/install/cg/lib/cg
+[0.557s] Installing test script to /project_ws/install/cg/lib/cg
+[0.557s] writing list of installed files to '/project_ws/build/cg/install.log'
+[0.576s] Invoked command in '/project_ws/src/cg' returned '0': AMENT_PREFIX_PATH=/project_ws/install/cg_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces LD_LIBRARY_PATH=/project_ws/install/cg_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/project_ws/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg/lib/python3.10/site-packages:/project_ws/install/cg_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /project_ws/build/cg/build install --record /project_ws/build/cg/install.log --single-version-externally-managed install_data

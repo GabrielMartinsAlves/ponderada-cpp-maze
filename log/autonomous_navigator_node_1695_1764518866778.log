@@ -1,0 +1,270 @@
+[INFO] [1764518866.841488985] [cg_autonomous_navigator]: Tentando conectar ao serviço /get_map...
+[INFO] [1764518866.841640006] [cg_autonomous_navigator]: Serviço /get_map disponível, enviando request...
+[INFO] [1764518866.844081024] [cg_autonomous_navigator]: Dimensões do mapa recebidas: 29x29. O robô começa em (1, 1).
+[INFO] [1764518866.844123212] [cg_autonomous_navigator]: O robô agora está 'cego' e deve mapear o labirinto.
+[INFO] [1764518866.891587317] [cg_autonomous_navigator]: Novo alvo de exploração: (2, 1)
+[INFO] [1764518866.891671512] [cg_autonomous_navigator]: Tentando mover de (1, 1) para (2, 1)
+[INFO] [1764518866.941492233] [cg_autonomous_navigator]: Novo alvo de exploração: (3, 1)
+[INFO] [1764518866.941598987] [cg_autonomous_navigator]: Tentando mover de (2, 1) para (3, 1)
+[INFO] [1764518866.991478889] [cg_autonomous_navigator]: Novo alvo de exploração: (4, 1)
+[INFO] [1764518866.991552612] [cg_autonomous_navigator]: Tentando mover de (3, 1) para (4, 1)
+[INFO] [1764518867.041493064] [cg_autonomous_navigator]: Novo alvo de exploração: (5, 1)
+[INFO] [1764518867.041603109] [cg_autonomous_navigator]: Tentando mover de (4, 1) para (5, 1)
+[INFO] [1764518867.091560050] [cg_autonomous_navigator]: Novo alvo de exploração: (6, 1)
+[INFO] [1764518867.091666779] [cg_autonomous_navigator]: Tentando mover de (5, 1) para (6, 1)
+[INFO] [1764518867.141494871] [cg_autonomous_navigator]: Novo alvo de exploração: (7, 1)
+[INFO] [1764518867.141590621] [cg_autonomous_navigator]: Tentando mover de (6, 1) para (7, 1)
+[INFO] [1764518867.191482535] [cg_autonomous_navigator]: Novo alvo de exploração: (8, 1)
+[INFO] [1764518867.191560614] [cg_autonomous_navigator]: Tentando mover de (7, 1) para (8, 1)
+[INFO] [1764518867.241483622] [cg_autonomous_navigator]: Novo alvo de exploração: (9, 1)
+[INFO] [1764518867.241556504] [cg_autonomous_navigator]: Tentando mover de (8, 1) para (9, 1)
+[INFO] [1764518867.291492355] [cg_autonomous_navigator]: Novo alvo de exploração: (9, 2)
+[INFO] [1764518867.291573853] [cg_autonomous_navigator]: Tentando mover de (9, 1) para (9, 2)
+[INFO] [1764518867.341491994] [cg_autonomous_navigator]: Novo alvo de exploração: (9, 3)
+[INFO] [1764518867.341567897] [cg_autonomous_navigator]: Tentando mover de (9, 2) para (9, 3)
+[INFO] [1764518867.391489539] [cg_autonomous_navigator]: Novo alvo de exploração: (10, 3)
+[INFO] [1764518867.391568080] [cg_autonomous_navigator]: Tentando mover de (9, 3) para (10, 3)
+[INFO] [1764518867.441484172] [cg_autonomous_navigator]: Novo alvo de exploração: (11, 3)
+[INFO] [1764518867.441548920] [cg_autonomous_navigator]: Tentando mover de (10, 3) para (11, 3)
+[INFO] [1764518867.491495404] [cg_autonomous_navigator]: Novo alvo de exploração: (11, 4)
+[INFO] [1764518867.491575734] [cg_autonomous_navigator]: Tentando mover de (11, 3) para (11, 4)
+[INFO] [1764518867.541499991] [cg_autonomous_navigator]: Novo alvo de exploração: (11, 5)
+[INFO] [1764518867.541579293] [cg_autonomous_navigator]: Tentando mover de (11, 4) para (11, 5)
+[INFO] [1764518867.591486148] [cg_autonomous_navigator]: Novo alvo de exploração: (12, 5)
+[INFO] [1764518867.591551516] [cg_autonomous_navigator]: Tentando mover de (11, 5) para (12, 5)
+[INFO] [1764518867.641580793] [cg_autonomous_navigator]: Novo alvo de exploração: (13, 5)
+[INFO] [1764518867.641652479] [cg_autonomous_navigator]: Tentando mover de (12, 5) para (13, 5)
+[INFO] [1764518867.691484681] [cg_autonomous_navigator]: Novo alvo de exploração: (13, 6)
+[INFO] [1764518867.691546771] [cg_autonomous_navigator]: Tentando mover de (13, 5) para (13, 6)
+[INFO] [1764518867.741508246] [cg_autonomous_navigator]: Novo alvo de exploração: (13, 7)
+[INFO] [1764518867.741589326] [cg_autonomous_navigator]: Tentando mover de (13, 6) para (13, 7)
+[INFO] [1764518867.791511281] [cg_autonomous_navigator]: Novo alvo de exploração: (14, 7)
+[INFO] [1764518867.791597632] [cg_autonomous_navigator]: Tentando mover de (13, 7) para (14, 7)
+[INFO] [1764518867.841483566] [cg_autonomous_navigator]: Novo alvo de exploração: (15, 6)
+[INFO] [1764518867.841560259] [cg_autonomous_navigator]: Tentando mover de (14, 7) para (15, 7)
+[INFO] [1764518867.891513357] [cg_autonomous_navigator]: Tentando mover de (15, 7) para (15, 6)
+[INFO] [1764518867.941509420] [cg_autonomous_navigator]: Novo alvo de exploração: (15, 5)
+[INFO] [1764518867.941588850] [cg_autonomous_navigator]: Tentando mover de (15, 6) para (15, 5)
+[INFO] [1764518867.991501367] [cg_autonomous_navigator]: Novo alvo de exploração: (16, 5)
+[INFO] [1764518867.991580383] [cg_autonomous_navigator]: Tentando mover de (15, 5) para (16, 5)
+[INFO] [1764518868.041595400] [cg_autonomous_navigator]: Novo alvo de exploração: (17, 5)
+[INFO] [1764518868.041667358] [cg_autonomous_navigator]: Tentando mover de (16, 5) para (17, 5)
+[INFO] [1764518868.091502878] [cg_autonomous_navigator]: Novo alvo de exploração: (17, 6)
+[INFO] [1764518868.091569060] [cg_autonomous_navigator]: Tentando mover de (17, 5) para (17, 6)
+[INFO] [1764518868.141512861] [cg_autonomous_navigator]: Novo alvo de exploração: (17, 7)
+[INFO] [1764518868.141585340] [cg_autonomous_navigator]: Tentando mover de (17, 6) para (17, 7)
+[INFO] [1764518868.191504888] [cg_autonomous_navigator]: Novo alvo de exploração: (17, 8)
+[INFO] [1764518868.191579747] [cg_autonomous_navigator]: Tentando mover de (17, 7) para (17, 8)
+[INFO] [1764518868.241515060] [cg_autonomous_navigator]: Novo alvo de exploração: (16, 9)
+[INFO] [1764518868.241599212] [cg_autonomous_navigator]: Tentando mover de (17, 8) para (17, 9)
+[INFO] [1764518868.291499889] [cg_autonomous_navigator]: Tentando mover de (17, 9) para (16, 9)
+[INFO] [1764518868.341519129] [cg_autonomous_navigator]: Novo alvo de exploração: (15, 9)
+[INFO] [1764518868.341602271] [cg_autonomous_navigator]: Tentando mover de (16, 9) para (15, 9)
+[INFO] [1764518868.391583857] [cg_autonomous_navigator]: Novo alvo de exploração: (14, 9)
+[INFO] [1764518868.391648642] [cg_autonomous_navigator]: Tentando mover de (15, 9) para (14, 9)
+[INFO] [1764518868.441551475] [cg_autonomous_navigator]: Novo alvo de exploração: (13, 9)
+[INFO] [1764518868.441623852] [cg_autonomous_navigator]: Tentando mover de (14, 9) para (13, 9)
+[INFO] [1764518868.491565349] [cg_autonomous_navigator]: Novo alvo de exploração: (13, 10)
+[INFO] [1764518868.491651270] [cg_autonomous_navigator]: Tentando mover de (13, 9) para (13, 10)
+[INFO] [1764518868.541599325] [cg_autonomous_navigator]: Novo alvo de exploração: (12, 11)
+[INFO] [1764518868.541664792] [cg_autonomous_navigator]: Tentando mover de (13, 10) para (13, 11)
+[INFO] [1764518868.591496771] [cg_autonomous_navigator]: Tentando mover de (13, 11) para (12, 11)
+[INFO] [1764518868.641556853] [cg_autonomous_navigator]: Novo alvo de exploração: (11, 11)
+[INFO] [1764518868.641620728] [cg_autonomous_navigator]: Tentando mover de (12, 11) para (11, 11)
+[INFO] [1764518868.691513598] [cg_autonomous_navigator]: Novo alvo de exploração: (11, 12)
+[INFO] [1764518868.691580522] [cg_autonomous_navigator]: Tentando mover de (11, 11) para (11, 12)
+[INFO] [1764518868.741517934] [cg_autonomous_navigator]: Novo alvo de exploração: (10, 13)
+[INFO] [1764518868.741589956] [cg_autonomous_navigator]: Tentando mover de (11, 12) para (11, 13)
+[INFO] [1764518868.791583103] [cg_autonomous_navigator]: Tentando mover de (11, 13) para (10, 13)
+[INFO] [1764518868.841510438] [cg_autonomous_navigator]: Novo alvo de exploração: (9, 13)
+[INFO] [1764518868.841573854] [cg_autonomous_navigator]: Tentando mover de (10, 13) para (9, 13)
+[INFO] [1764518868.891545735] [cg_autonomous_navigator]: Novo alvo de exploração: (9, 14)
+[INFO] [1764518868.891643929] [cg_autonomous_navigator]: Tentando mover de (9, 13) para (9, 14)
+[INFO] [1764518868.941512469] [cg_autonomous_navigator]: Novo alvo de exploração: (9, 15)
+[INFO] [1764518868.941576048] [cg_autonomous_navigator]: Tentando mover de (9, 14) para (9, 15)
+[INFO] [1764518868.991613693] [cg_autonomous_navigator]: Novo alvo de exploração: (10, 15)
+[INFO] [1764518868.991682124] [cg_autonomous_navigator]: Tentando mover de (9, 15) para (10, 15)
+[INFO] [1764518869.041520052] [cg_autonomous_navigator]: Novo alvo de exploração: (11, 15)
+[INFO] [1764518869.041623072] [cg_autonomous_navigator]: Tentando mover de (10, 15) para (11, 15)
+[INFO] [1764518869.091599307] [cg_autonomous_navigator]: Novo alvo de exploração: (12, 15)
+[INFO] [1764518869.091665814] [cg_autonomous_navigator]: Tentando mover de (11, 15) para (12, 15)
+[INFO] [1764518869.141528520] [cg_autonomous_navigator]: Novo alvo de exploração: (13, 14)
+[INFO] [1764518869.141602496] [cg_autonomous_navigator]: Tentando mover de (12, 15) para (13, 15)
+[INFO] [1764518869.191586644] [cg_autonomous_navigator]: Tentando mover de (13, 15) para (13, 14)
+[INFO] [1764518869.241600386] [cg_autonomous_navigator]: Novo alvo de exploração: (14, 13)
+[INFO] [1764518869.241675440] [cg_autonomous_navigator]: Tentando mover de (13, 14) para (14, 14)
+[INFO] [1764518869.291612618] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.312306595] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.341541145] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.342671378] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.391514028] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.392650764] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.441538282] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.442632401] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.491527658] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.492747106] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.541625732] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.543040713] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.591549706] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.593014200] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.641630059] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.643098193] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.691551320] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.692918584] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.741627572] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.742914598] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.791503968] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.793274459] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.841505010] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.843330985] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.891508467] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.893286939] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.941517479] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.942849290] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518869.991504824] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518869.992885254] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.041507837] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.042869139] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.091557480] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.092977982] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.141545905] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.143133859] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.191508616] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.193183171] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.241506432] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.242623839] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.291533359] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.293166136] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.341534835] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.343510428] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.391511776] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.392764575] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.441514051] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.442674063] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.491639271] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.492777571] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.541518835] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.542919786] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.591512210] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.592954235] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.641513422] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.642961500] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.691541150] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.692941388] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.741560311] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.743915118] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.791522627] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.792955731] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.841523698] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.842827242] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.891587551] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.892761728] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.941596537] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.942846586] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518870.991554216] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518870.992745005] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.041653972] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.043055761] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.091559246] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.092979788] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.141562964] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.142889067] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.191660249] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.193102902] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.241552812] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.242987848] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.291646117] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.292924629] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.341565083] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.343447982] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.391654961] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.393090929] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.441658197] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.442873916] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.491566254] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.492866905] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.541599753] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.543183919] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.591531324] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.592634009] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.641647427] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.642832796] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.691558135] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.692757971] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.741535123] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.742761086] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.791543916] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.792681076] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.841571540] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.843060162] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.891570689] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.892837804] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.941570666] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.943180630] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518871.991544862] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518871.992943396] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.041568033] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.043135487] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.091536724] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.092736287] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.141587796] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.142906365] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.191543956] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.192955005] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.241665327] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.243086106] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.291582402] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.292958169] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.341575980] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.343334854] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.391627708] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.393492880] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.441570006] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.442897975] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.491591781] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.493348302] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.541584438] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.542896033] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.591575571] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.593126813] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.641569466] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.642821020] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.691551468] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.692936547] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.741580453] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.742982965] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.791552125] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.792909992] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.841582400] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.842863920] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.891546985] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.892855304] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.941569841] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.942832847] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518872.991568626] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518872.992961660] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.041596087] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.042870612] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.091597085] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.092821378] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.141599472] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.143032232] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.191681798] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.192932262] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.241636303] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.243274475] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.291589682] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.292782982] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.341598897] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.343017475] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.391599523] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.393349156] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.441560414] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.443189025] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.491567447] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.493325962] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.541670219] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.543377457] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.591592109] [cg_autonomous_navigator]: Tentando mover de (14, 14) para (14, 13)
+[ERROR] [1764518873.593436547] [cg_autonomous_navigator]: O serviço de movimento indicou FALHA ao tentar ir para (14, 13).
+[INFO] [1764518873.637872859] [rclcpp]: signal_handler(signum=2)

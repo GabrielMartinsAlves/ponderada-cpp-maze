@@ -1,0 +1,413 @@
+[INFO] [1764517608.990034977] [cg_autonomous_navigator]: Tentando conectar ao serviço /get_map...
+[INFO] [1764517608.990184743] [cg_autonomous_navigator]: Serviço /get_map disponível, enviando request...
+[INFO] [1764517608.992181762] [cg_autonomous_navigator]: Mapa recebido: 29x29
+[INFO] [1764517609.041160294] [cg_autonomous_navigator]: Caminho calculado com 205 passos.
+[INFO] [1764517609.041207212] [cg_autonomous_navigator]: Tentando mover de (1, 1) para (1, 2)
+[INFO] [1764517609.043607724] [cg_autonomous_navigator]: Movimento para (1, 2) bem-sucedido.
+[INFO] [1764517609.090078618] [cg_autonomous_navigator]: Tentando mover de (1, 2) para (1, 3)
+[INFO] [1764517609.094877095] [cg_autonomous_navigator]: Movimento para (1, 3) bem-sucedido.
+[INFO] [1764517609.140062558] [cg_autonomous_navigator]: Tentando mover de (1, 3) para (2, 3)
+[INFO] [1764517609.141487208] [cg_autonomous_navigator]: Movimento para (2, 3) bem-sucedido.
+[INFO] [1764517609.190028023] [cg_autonomous_navigator]: Tentando mover de (2, 3) para (3, 3)
+[INFO] [1764517609.192403892] [cg_autonomous_navigator]: Movimento para (3, 3) bem-sucedido.
+[INFO] [1764517609.240040351] [cg_autonomous_navigator]: Tentando mover de (3, 3) para (4, 3)
+[INFO] [1764517609.241193352] [cg_autonomous_navigator]: Movimento para (4, 3) bem-sucedido.
+[INFO] [1764517609.290039091] [cg_autonomous_navigator]: Tentando mover de (4, 3) para (5, 3)
+[INFO] [1764517609.290620351] [cg_autonomous_navigator]: Movimento para (5, 3) bem-sucedido.
+[INFO] [1764517609.340035751] [cg_autonomous_navigator]: Tentando mover de (5, 3) para (5, 4)
+[INFO] [1764517609.342164902] [cg_autonomous_navigator]: Movimento para (5, 4) bem-sucedido.
+[INFO] [1764517609.390044017] [cg_autonomous_navigator]: Tentando mover de (5, 4) para (5, 5)
+[INFO] [1764517609.391588100] [cg_autonomous_navigator]: Movimento para (5, 5) bem-sucedido.
+[INFO] [1764517609.440047143] [cg_autonomous_navigator]: Tentando mover de (5, 5) para (4, 5)
+[INFO] [1764517609.441978308] [cg_autonomous_navigator]: Movimento para (4, 5) bem-sucedido.
+[INFO] [1764517609.490050106] [cg_autonomous_navigator]: Tentando mover de (4, 5) para (3, 5)
+[INFO] [1764517609.492343254] [cg_autonomous_navigator]: Movimento para (3, 5) bem-sucedido.
+[INFO] [1764517609.540051690] [cg_autonomous_navigator]: Tentando mover de (3, 5) para (3, 6)
+[INFO] [1764517609.541171025] [cg_autonomous_navigator]: Movimento para (3, 6) bem-sucedido.
+[INFO] [1764517609.590037045] [cg_autonomous_navigator]: Tentando mover de (3, 6) para (3, 7)
+[INFO] [1764517609.592007624] [cg_autonomous_navigator]: Movimento para (3, 7) bem-sucedido.
+[INFO] [1764517609.640042868] [cg_autonomous_navigator]: Tentando mover de (3, 7) para (4, 7)
+[INFO] [1764517609.640799602] [cg_autonomous_navigator]: Movimento para (4, 7) bem-sucedido.
+[INFO] [1764517609.690050365] [cg_autonomous_navigator]: Tentando mover de (4, 7) para (5, 7)
+[INFO] [1764517609.692360419] [cg_autonomous_navigator]: Movimento para (5, 7) bem-sucedido.
+[INFO] [1764517609.740037936] [cg_autonomous_navigator]: Tentando mover de (5, 7) para (6, 7)
+[INFO] [1764517609.741935910] [cg_autonomous_navigator]: Movimento para (6, 7) bem-sucedido.
+[INFO] [1764517609.790041887] [cg_autonomous_navigator]: Tentando mover de (6, 7) para (7, 7)
+[INFO] [1764517609.790572719] [cg_autonomous_navigator]: Movimento para (7, 7) bem-sucedido.
+[INFO] [1764517609.840040571] [cg_autonomous_navigator]: Tentando mover de (7, 7) para (7, 8)
+[INFO] [1764517609.841080281] [cg_autonomous_navigator]: Movimento para (7, 8) bem-sucedido.
+[INFO] [1764517609.890054617] [cg_autonomous_navigator]: Tentando mover de (7, 8) para (7, 9)
+[INFO] [1764517609.891605757] [cg_autonomous_navigator]: Movimento para (7, 9) bem-sucedido.
+[INFO] [1764517609.940057154] [cg_autonomous_navigator]: Tentando mover de (7, 9) para (6, 9)
+[INFO] [1764517609.941939949] [cg_autonomous_navigator]: Movimento para (6, 9) bem-sucedido.
+[INFO] [1764517609.990057149] [cg_autonomous_navigator]: Tentando mover de (6, 9) para (5, 9)
+[INFO] [1764517609.991534615] [cg_autonomous_navigator]: Movimento para (5, 9) bem-sucedido.
+[INFO] [1764517610.040040855] [cg_autonomous_navigator]: Tentando mover de (5, 9) para (4, 9)
+[INFO] [1764517610.044247618] [cg_autonomous_navigator]: Movimento para (4, 9) bem-sucedido.
+[INFO] [1764517610.090064740] [cg_autonomous_navigator]: Tentando mover de (4, 9) para (3, 9)
+[INFO] [1764517610.094432946] [cg_autonomous_navigator]: Movimento para (3, 9) bem-sucedido.
+[INFO] [1764517610.140047986] [cg_autonomous_navigator]: Tentando mover de (3, 9) para (2, 9)
+[INFO] [1764517610.144489019] [cg_autonomous_navigator]: Movimento para (2, 9) bem-sucedido.
+[INFO] [1764517610.190054282] [cg_autonomous_navigator]: Tentando mover de (2, 9) para (1, 9)
+[INFO] [1764517610.190636006] [cg_autonomous_navigator]: Movimento para (1, 9) bem-sucedido.
+[INFO] [1764517610.240054409] [cg_autonomous_navigator]: Tentando mover de (1, 9) para (1, 10)
+[INFO] [1764517610.240564239] [cg_autonomous_navigator]: Movimento para (1, 10) bem-sucedido.
+[INFO] [1764517610.290053873] [cg_autonomous_navigator]: Tentando mover de (1, 10) para (1, 11)
+[INFO] [1764517610.294117809] [cg_autonomous_navigator]: Movimento para (1, 11) bem-sucedido.
+[INFO] [1764517610.340059693] [cg_autonomous_navigator]: Tentando mover de (1, 11) para (1, 12)
+[INFO] [1764517610.341197467] [cg_autonomous_navigator]: Movimento para (1, 12) bem-sucedido.
+[INFO] [1764517610.390070449] [cg_autonomous_navigator]: Tentando mover de (1, 12) para (1, 13)
+[INFO] [1764517610.391741275] [cg_autonomous_navigator]: Movimento para (1, 13) bem-sucedido.
+[INFO] [1764517610.440072801] [cg_autonomous_navigator]: Tentando mover de (1, 13) para (2, 13)
+[INFO] [1764517610.441870345] [cg_autonomous_navigator]: Movimento para (2, 13) bem-sucedido.
+[INFO] [1764517610.490050810] [cg_autonomous_navigator]: Tentando mover de (2, 13) para (3, 13)
+[INFO] [1764517610.491600565] [cg_autonomous_navigator]: Movimento para (3, 13) bem-sucedido.
+[INFO] [1764517610.540050029] [cg_autonomous_navigator]: Tentando mover de (3, 13) para (3, 14)
+[INFO] [1764517610.541137463] [cg_autonomous_navigator]: Movimento para (3, 14) bem-sucedido.
+[INFO] [1764517610.590046584] [cg_autonomous_navigator]: Tentando mover de (3, 14) para (3, 15)
+[INFO] [1764517610.594739913] [cg_autonomous_navigator]: Movimento para (3, 15) bem-sucedido.
+[INFO] [1764517610.640085817] [cg_autonomous_navigator]: Tentando mover de (3, 15) para (4, 15)
+[INFO] [1764517610.642673012] [cg_autonomous_navigator]: Movimento para (4, 15) bem-sucedido.
+[INFO] [1764517610.690052890] [cg_autonomous_navigator]: Tentando mover de (4, 15) para (5, 15)
+[INFO] [1764517610.690937009] [cg_autonomous_navigator]: Movimento para (5, 15) bem-sucedido.
+[INFO] [1764517610.740070079] [cg_autonomous_navigator]: Tentando mover de (5, 15) para (5, 16)
+[INFO] [1764517610.742018854] [cg_autonomous_navigator]: Movimento para (5, 16) bem-sucedido.
+[INFO] [1764517610.790068484] [cg_autonomous_navigator]: Tentando mover de (5, 16) para (5, 17)
+[INFO] [1764517610.791895860] [cg_autonomous_navigator]: Movimento para (5, 17) bem-sucedido.
+[INFO] [1764517610.840047393] [cg_autonomous_navigator]: Tentando mover de (5, 17) para (6, 17)
+[INFO] [1764517610.840661129] [cg_autonomous_navigator]: Movimento para (6, 17) bem-sucedido.
+[INFO] [1764517610.890072172] [cg_autonomous_navigator]: Tentando mover de (6, 17) para (7, 17)
+[INFO] [1764517610.893148658] [cg_autonomous_navigator]: Movimento para (7, 17) bem-sucedido.
+[INFO] [1764517610.940067626] [cg_autonomous_navigator]: Tentando mover de (7, 17) para (8, 17)
+[INFO] [1764517610.944240523] [cg_autonomous_navigator]: Movimento para (8, 17) bem-sucedido.
+[INFO] [1764517610.990088230] [cg_autonomous_navigator]: Tentando mover de (8, 17) para (9, 17)
+[INFO] [1764517610.991806408] [cg_autonomous_navigator]: Movimento para (9, 17) bem-sucedido.
+[INFO] [1764517611.040069234] [cg_autonomous_navigator]: Tentando mover de (9, 17) para (9, 18)
+[INFO] [1764517611.043493037] [cg_autonomous_navigator]: Movimento para (9, 18) bem-sucedido.
+[INFO] [1764517611.090076260] [cg_autonomous_navigator]: Tentando mover de (9, 18) para (9, 19)
+[INFO] [1764517611.093909265] [cg_autonomous_navigator]: Movimento para (9, 19) bem-sucedido.
+[INFO] [1764517611.140105049] [cg_autonomous_navigator]: Tentando mover de (9, 19) para (10, 19)
+[INFO] [1764517611.144966988] [cg_autonomous_navigator]: Movimento para (10, 19) bem-sucedido.
+[INFO] [1764517611.190095134] [cg_autonomous_navigator]: Tentando mover de (10, 19) para (11, 19)
+[INFO] [1764517611.192131470] [cg_autonomous_navigator]: Movimento para (11, 19) bem-sucedido.
+[INFO] [1764517611.240067531] [cg_autonomous_navigator]: Tentando mover de (11, 19) para (12, 19)
+[INFO] [1764517611.242461474] [cg_autonomous_navigator]: Movimento para (12, 19) bem-sucedido.
+[INFO] [1764517611.290057809] [cg_autonomous_navigator]: Tentando mover de (12, 19) para (13, 19)
+[INFO] [1764517611.290990356] [cg_autonomous_navigator]: Movimento para (13, 19) bem-sucedido.
+[INFO] [1764517611.340074887] [cg_autonomous_navigator]: Tentando mover de (13, 19) para (14, 19)
+[INFO] [1764517611.340911794] [cg_autonomous_navigator]: Movimento para (14, 19) bem-sucedido.
+[INFO] [1764517611.390089114] [cg_autonomous_navigator]: Tentando mover de (14, 19) para (15, 19)
+[INFO] [1764517611.391873506] [cg_autonomous_navigator]: Movimento para (15, 19) bem-sucedido.
+[INFO] [1764517611.440084995] [cg_autonomous_navigator]: Tentando mover de (15, 19) para (15, 20)
+[INFO] [1764517611.443518866] [cg_autonomous_navigator]: Movimento para (15, 20) bem-sucedido.
+[INFO] [1764517611.490057795] [cg_autonomous_navigator]: Tentando mover de (15, 20) para (15, 21)
+[INFO] [1764517611.491693309] [cg_autonomous_navigator]: Movimento para (15, 21) bem-sucedido.
+[INFO] [1764517611.540106663] [cg_autonomous_navigator]: Tentando mover de (15, 21) para (16, 21)
+[INFO] [1764517611.542649034] [cg_autonomous_navigator]: Movimento para (16, 21) bem-sucedido.
+[INFO] [1764517611.590086143] [cg_autonomous_navigator]: Tentando mover de (16, 21) para (17, 21)
+[INFO] [1764517611.590977438] [cg_autonomous_navigator]: Movimento para (17, 21) bem-sucedido.
+[INFO] [1764517611.640075728] [cg_autonomous_navigator]: Tentando mover de (17, 21) para (17, 22)
+[INFO] [1764517611.642637770] [cg_autonomous_navigator]: Movimento para (17, 22) bem-sucedido.
+[INFO] [1764517611.690079756] [cg_autonomous_navigator]: Tentando mover de (17, 22) para (17, 23)
+[INFO] [1764517611.690813091] [cg_autonomous_navigator]: Movimento para (17, 23) bem-sucedido.
+[INFO] [1764517611.740125112] [cg_autonomous_navigator]: Tentando mover de (17, 23) para (18, 23)
+[INFO] [1764517611.742240662] [cg_autonomous_navigator]: Movimento para (18, 23) bem-sucedido.
+[INFO] [1764517611.790083402] [cg_autonomous_navigator]: Tentando mover de (18, 23) para (19, 23)
+[INFO] [1764517611.791152695] [cg_autonomous_navigator]: Movimento para (19, 23) bem-sucedido.
+[INFO] [1764517611.840088524] [cg_autonomous_navigator]: Tentando mover de (19, 23) para (20, 23)
+[INFO] [1764517611.841393339] [cg_autonomous_navigator]: Movimento para (20, 23) bem-sucedido.
+[INFO] [1764517611.890078935] [cg_autonomous_navigator]: Tentando mover de (20, 23) para (21, 23)
+[INFO] [1764517611.891208780] [cg_autonomous_navigator]: Movimento para (21, 23) bem-sucedido.
+[INFO] [1764517611.940110078] [cg_autonomous_navigator]: Tentando mover de (21, 23) para (21, 24)
+[INFO] [1764517611.941962817] [cg_autonomous_navigator]: Movimento para (21, 24) bem-sucedido.
+[INFO] [1764517611.990092949] [cg_autonomous_navigator]: Tentando mover de (21, 24) para (21, 25)
+[INFO] [1764517611.991637651] [cg_autonomous_navigator]: Movimento para (21, 25) bem-sucedido.
+[INFO] [1764517612.040085056] [cg_autonomous_navigator]: Tentando mover de (21, 25) para (21, 26)
+[INFO] [1764517612.041761786] [cg_autonomous_navigator]: Movimento para (21, 26) bem-sucedido.
+[INFO] [1764517612.090099970] [cg_autonomous_navigator]: Tentando mover de (21, 26) para (21, 27)
+[INFO] [1764517612.091919426] [cg_autonomous_navigator]: Movimento para (21, 27) bem-sucedido.
+[INFO] [1764517612.140104380] [cg_autonomous_navigator]: Tentando mover de (21, 27) para (22, 27)
+[INFO] [1764517612.142199703] [cg_autonomous_navigator]: Movimento para (22, 27) bem-sucedido.
+[INFO] [1764517612.190085840] [cg_autonomous_navigator]: Tentando mover de (22, 27) para (23, 27)
+[INFO] [1764517612.191785402] [cg_autonomous_navigator]: Movimento para (23, 27) bem-sucedido.
+[INFO] [1764517612.240090913] [cg_autonomous_navigator]: Tentando mover de (23, 27) para (23, 26)
+[INFO] [1764517612.241448922] [cg_autonomous_navigator]: Movimento para (23, 26) bem-sucedido.
+[INFO] [1764517612.290109915] [cg_autonomous_navigator]: Tentando mover de (23, 26) para (23, 25)
+[INFO] [1764517612.292181369] [cg_autonomous_navigator]: Movimento para (23, 25) bem-sucedido.
+[INFO] [1764517612.340080377] [cg_autonomous_navigator]: Tentando mover de (23, 25) para (23, 24)
+[INFO] [1764517612.340801008] [cg_autonomous_navigator]: Movimento para (23, 24) bem-sucedido.
+[INFO] [1764517612.390084386] [cg_autonomous_navigator]: Tentando mover de (23, 24) para (23, 23)
+[INFO] [1764517612.393847747] [cg_autonomous_navigator]: Movimento para (23, 23) bem-sucedido.
+[INFO] [1764517612.440068118] [cg_autonomous_navigator]: Tentando mover de (23, 23) para (23, 22)
+[INFO] [1764517612.444509814] [cg_autonomous_navigator]: Movimento para (23, 22) bem-sucedido.
+[INFO] [1764517612.490062221] [cg_autonomous_navigator]: Tentando mover de (23, 22) para (23, 21)
+[INFO] [1764517612.490785937] [cg_autonomous_navigator]: Movimento para (23, 21) bem-sucedido.
+[INFO] [1764517612.540109128] [cg_autonomous_navigator]: Tentando mover de (23, 21) para (22, 21)
+[INFO] [1764517612.542386687] [cg_autonomous_navigator]: Movimento para (22, 21) bem-sucedido.
+[INFO] [1764517612.590063047] [cg_autonomous_navigator]: Tentando mover de (22, 21) para (21, 21)
+[INFO] [1764517612.592099121] [cg_autonomous_navigator]: Movimento para (21, 21) bem-sucedido.
+[INFO] [1764517612.640071777] [cg_autonomous_navigator]: Tentando mover de (21, 21) para (20, 21)
+[INFO] [1764517612.641717115] [cg_autonomous_navigator]: Movimento para (20, 21) bem-sucedido.
+[INFO] [1764517612.690075337] [cg_autonomous_navigator]: Tentando mover de (20, 21) para (19, 21)
+[INFO] [1764517612.691960168] [cg_autonomous_navigator]: Movimento para (19, 21) bem-sucedido.
+[INFO] [1764517612.740078088] [cg_autonomous_navigator]: Tentando mover de (19, 21) para (19, 20)
+[INFO] [1764517612.741994527] [cg_autonomous_navigator]: Movimento para (19, 20) bem-sucedido.
+[INFO] [1764517612.790078892] [cg_autonomous_navigator]: Tentando mover de (19, 20) para (19, 19)
+[INFO] [1764517612.792771339] [cg_autonomous_navigator]: Movimento para (19, 19) bem-sucedido.
+[INFO] [1764517612.840062638] [cg_autonomous_navigator]: Tentando mover de (19, 19) para (18, 19)
+[INFO] [1764517612.840637408] [cg_autonomous_navigator]: Movimento para (18, 19) bem-sucedido.
+[INFO] [1764517612.890066355] [cg_autonomous_navigator]: Tentando mover de (18, 19) para (17, 19)
+[INFO] [1764517612.890776902] [cg_autonomous_navigator]: Movimento para (17, 19) bem-sucedido.
+[INFO] [1764517612.940066007] [cg_autonomous_navigator]: Tentando mover de (17, 19) para (17, 18)
+[INFO] [1764517612.941222750] [cg_autonomous_navigator]: Movimento para (17, 18) bem-sucedido.
+[INFO] [1764517612.990103677] [cg_autonomous_navigator]: Tentando mover de (17, 18) para (17, 17)
+[INFO] [1764517612.991681982] [cg_autonomous_navigator]: Movimento para (17, 17) bem-sucedido.
+[INFO] [1764517613.040097803] [cg_autonomous_navigator]: Tentando mover de (17, 17) para (16, 17)
+[INFO] [1764517613.041426039] [cg_autonomous_navigator]: Movimento para (16, 17) bem-sucedido.
+[INFO] [1764517613.090081934] [cg_autonomous_navigator]: Tentando mover de (16, 17) para (15, 17)
+[INFO] [1764517613.092981775] [cg_autonomous_navigator]: Movimento para (15, 17) bem-sucedido.
+[INFO] [1764517613.140084555] [cg_autonomous_navigator]: Tentando mover de (15, 17) para (15, 16)
+[INFO] [1764517613.142718657] [cg_autonomous_navigator]: Movimento para (15, 16) bem-sucedido.
+[INFO] [1764517613.190103279] [cg_autonomous_navigator]: Tentando mover de (15, 16) para (15, 15)
+[INFO] [1764517613.190708973] [cg_autonomous_navigator]: Movimento para (15, 15) bem-sucedido.
+[INFO] [1764517613.240154077] [cg_autonomous_navigator]: Tentando mover de (15, 15) para (16, 15)
+[INFO] [1764517613.245304663] [cg_autonomous_navigator]: Movimento para (16, 15) bem-sucedido.
+[INFO] [1764517613.290153833] [cg_autonomous_navigator]: Tentando mover de (16, 15) para (17, 15)
+[INFO] [1764517613.294792997] [cg_autonomous_navigator]: Movimento para (17, 15) bem-sucedido.
+[INFO] [1764517613.340081140] [cg_autonomous_navigator]: Tentando mover de (17, 15) para (18, 15)
+[INFO] [1764517613.342653838] [cg_autonomous_navigator]: Movimento para (18, 15) bem-sucedido.
+[INFO] [1764517613.390093694] [cg_autonomous_navigator]: Tentando mover de (18, 15) para (19, 15)
+[INFO] [1764517613.393237684] [cg_autonomous_navigator]: Movimento para (19, 15) bem-sucedido.
+[INFO] [1764517613.440099638] [cg_autonomous_navigator]: Tentando mover de (19, 15) para (20, 15)
+[INFO] [1764517613.446093639] [cg_autonomous_navigator]: Movimento para (20, 15) bem-sucedido.
+[INFO] [1764517613.490115710] [cg_autonomous_navigator]: Tentando mover de (20, 15) para (21, 15)
+[INFO] [1764517613.493189952] [cg_autonomous_navigator]: Movimento para (21, 15) bem-sucedido.
+[INFO] [1764517613.540087666] [cg_autonomous_navigator]: Tentando mover de (21, 15) para (21, 16)
+[INFO] [1764517613.541211486] [cg_autonomous_navigator]: Movimento para (21, 16) bem-sucedido.
+[INFO] [1764517613.590102083] [cg_autonomous_navigator]: Tentando mover de (21, 16) para (21, 17)
+[INFO] [1764517613.593930534] [cg_autonomous_navigator]: Movimento para (21, 17) bem-sucedido.
+[INFO] [1764517613.640193539] [cg_autonomous_navigator]: Tentando mover de (21, 17) para (21, 18)
+[INFO] [1764517613.644206043] [cg_autonomous_navigator]: Movimento para (21, 18) bem-sucedido.
+[INFO] [1764517613.690069559] [cg_autonomous_navigator]: Tentando mover de (21, 18) para (21, 19)
+[INFO] [1764517613.694778735] [cg_autonomous_navigator]: Movimento para (21, 19) bem-sucedido.
+[INFO] [1764517613.740103915] [cg_autonomous_navigator]: Tentando mover de (21, 19) para (22, 19)
+[INFO] [1764517613.742903499] [cg_autonomous_navigator]: Movimento para (22, 19) bem-sucedido.
+[INFO] [1764517613.790118541] [cg_autonomous_navigator]: Tentando mover de (22, 19) para (23, 19)
+[INFO] [1764517613.792101265] [cg_autonomous_navigator]: Movimento para (23, 19) bem-sucedido.
+[INFO] [1764517613.840092958] [cg_autonomous_navigator]: Tentando mover de (23, 19) para (23, 18)
+[INFO] [1764517613.840788422] [cg_autonomous_navigator]: Movimento para (23, 18) bem-sucedido.
+[INFO] [1764517613.890112318] [cg_autonomous_navigator]: Tentando mover de (23, 18) para (23, 17)
+[INFO] [1764517613.891748604] [cg_autonomous_navigator]: Movimento para (23, 17) bem-sucedido.
+[INFO] [1764517613.940106473] [cg_autonomous_navigator]: Tentando mover de (23, 17) para (24, 17)
+[INFO] [1764517613.942515321] [cg_autonomous_navigator]: Movimento para (24, 17) bem-sucedido.
+[INFO] [1764517613.990093422] [cg_autonomous_navigator]: Tentando mover de (24, 17) para (25, 17)
+[INFO] [1764517613.990729639] [cg_autonomous_navigator]: Movimento para (25, 17) bem-sucedido.
+[INFO] [1764517614.040090055] [cg_autonomous_navigator]: Tentando mover de (25, 17) para (26, 17)
+[INFO] [1764517614.040740866] [cg_autonomous_navigator]: Movimento para (26, 17) bem-sucedido.
+[INFO] [1764517614.090118979] [cg_autonomous_navigator]: Tentando mover de (26, 17) para (27, 17)
+[INFO] [1764517614.093391252] [cg_autonomous_navigator]: Movimento para (27, 17) bem-sucedido.
+[INFO] [1764517614.140159055] [cg_autonomous_navigator]: Tentando mover de (27, 17) para (27, 16)
+[INFO] [1764517614.145967940] [cg_autonomous_navigator]: Movimento para (27, 16) bem-sucedido.
+[INFO] [1764517614.190133326] [cg_autonomous_navigator]: Tentando mover de (27, 16) para (27, 15)
+[INFO] [1764517614.191270068] [cg_autonomous_navigator]: Movimento para (27, 15) bem-sucedido.
+[INFO] [1764517614.240096979] [cg_autonomous_navigator]: Tentando mover de (27, 15) para (26, 15)
+[INFO] [1764517614.240942197] [cg_autonomous_navigator]: Movimento para (26, 15) bem-sucedido.
+[INFO] [1764517614.290141002] [cg_autonomous_navigator]: Tentando mover de (26, 15) para (25, 15)
+[INFO] [1764517614.292050436] [cg_autonomous_navigator]: Movimento para (25, 15) bem-sucedido.
+[INFO] [1764517614.340109980] [cg_autonomous_navigator]: Tentando mover de (25, 15) para (24, 15)
+[INFO] [1764517614.340644351] [cg_autonomous_navigator]: Movimento para (24, 15) bem-sucedido.
+[INFO] [1764517614.390097163] [cg_autonomous_navigator]: Tentando mover de (24, 15) para (23, 15)
+[INFO] [1764517614.390943557] [cg_autonomous_navigator]: Movimento para (23, 15) bem-sucedido.
+[INFO] [1764517614.440130605] [cg_autonomous_navigator]: Tentando mover de (23, 15) para (23, 14)
+[INFO] [1764517614.442748863] [cg_autonomous_navigator]: Movimento para (23, 14) bem-sucedido.
+[INFO] [1764517614.490108258] [cg_autonomous_navigator]: Tentando mover de (23, 14) para (23, 13)
+[INFO] [1764517614.491818203] [cg_autonomous_navigator]: Movimento para (23, 13) bem-sucedido.
+[INFO] [1764517614.540145464] [cg_autonomous_navigator]: Tentando mover de (23, 13) para (22, 13)
+[INFO] [1764517614.540753425] [cg_autonomous_navigator]: Movimento para (22, 13) bem-sucedido.
+[INFO] [1764517614.590125357] [cg_autonomous_navigator]: Tentando mover de (22, 13) para (21, 13)
+[INFO] [1764517614.592217006] [cg_autonomous_navigator]: Movimento para (21, 13) bem-sucedido.
+[INFO] [1764517614.640137398] [cg_autonomous_navigator]: Tentando mover de (21, 13) para (21, 12)
+[INFO] [1764517614.641808242] [cg_autonomous_navigator]: Movimento para (21, 12) bem-sucedido.
+[INFO] [1764517614.690134483] [cg_autonomous_navigator]: Tentando mover de (21, 12) para (21, 11)
+[INFO] [1764517614.691405469] [cg_autonomous_navigator]: Movimento para (21, 11) bem-sucedido.
+[INFO] [1764517614.740124087] [cg_autonomous_navigator]: Tentando mover de (21, 11) para (20, 11)
+[INFO] [1764517614.742382576] [cg_autonomous_navigator]: Movimento para (20, 11) bem-sucedido.
+[INFO] [1764517614.790124038] [cg_autonomous_navigator]: Tentando mover de (20, 11) para (19, 11)
+[INFO] [1764517614.791631286] [cg_autonomous_navigator]: Movimento para (19, 11) bem-sucedido.
+[INFO] [1764517614.840111684] [cg_autonomous_navigator]: Tentando mover de (19, 11) para (18, 11)
+[INFO] [1764517614.842020954] [cg_autonomous_navigator]: Movimento para (18, 11) bem-sucedido.
+[INFO] [1764517614.890131396] [cg_autonomous_navigator]: Tentando mover de (18, 11) para (17, 11)
+[INFO] [1764517614.891885038] [cg_autonomous_navigator]: Movimento para (17, 11) bem-sucedido.
+[INFO] [1764517614.940131698] [cg_autonomous_navigator]: Tentando mover de (17, 11) para (16, 11)
+[INFO] [1764517614.941771370] [cg_autonomous_navigator]: Movimento para (16, 11) bem-sucedido.
+[INFO] [1764517614.990130207] [cg_autonomous_navigator]: Tentando mover de (16, 11) para (15, 11)
+[INFO] [1764517614.990778642] [cg_autonomous_navigator]: Movimento para (15, 11) bem-sucedido.
+[INFO] [1764517615.040108400] [cg_autonomous_navigator]: Tentando mover de (15, 11) para (14, 11)
+[INFO] [1764517615.041065997] [cg_autonomous_navigator]: Movimento para (14, 11) bem-sucedido.
+[INFO] [1764517615.090205761] [cg_autonomous_navigator]: Tentando mover de (14, 11) para (13, 11)
+[INFO] [1764517615.093308148] [cg_autonomous_navigator]: Movimento para (13, 11) bem-sucedido.
+[INFO] [1764517615.140122015] [cg_autonomous_navigator]: Tentando mover de (13, 11) para (13, 10)
+[INFO] [1764517615.142471463] [cg_autonomous_navigator]: Movimento para (13, 10) bem-sucedido.
+[INFO] [1764517615.190088537] [cg_autonomous_navigator]: Tentando mover de (13, 10) para (13, 9)
+[INFO] [1764517615.195905750] [cg_autonomous_navigator]: Movimento para (13, 9) bem-sucedido.
+[INFO] [1764517615.240141482] [cg_autonomous_navigator]: Tentando mover de (13, 9) para (14, 9)
+[INFO] [1764517615.245322674] [cg_autonomous_navigator]: Movimento para (14, 9) bem-sucedido.
+[INFO] [1764517615.290121845] [cg_autonomous_navigator]: Tentando mover de (14, 9) para (15, 9)
+[INFO] [1764517615.292524105] [cg_autonomous_navigator]: Movimento para (15, 9) bem-sucedido.
+[INFO] [1764517615.340127125] [cg_autonomous_navigator]: Tentando mover de (15, 9) para (16, 9)
+[INFO] [1764517615.342958244] [cg_autonomous_navigator]: Movimento para (16, 9) bem-sucedido.
+[INFO] [1764517615.390137846] [cg_autonomous_navigator]: Tentando mover de (16, 9) para (17, 9)
+[INFO] [1764517615.392347176] [cg_autonomous_navigator]: Movimento para (17, 9) bem-sucedido.
+[INFO] [1764517615.440142783] [cg_autonomous_navigator]: Tentando mover de (17, 9) para (17, 8)
+[INFO] [1764517615.440854530] [cg_autonomous_navigator]: Movimento para (17, 8) bem-sucedido.
+[INFO] [1764517615.490115966] [cg_autonomous_navigator]: Tentando mover de (17, 8) para (17, 7)
+[INFO] [1764517615.493344888] [cg_autonomous_navigator]: Movimento para (17, 7) bem-sucedido.
+[INFO] [1764517615.540122846] [cg_autonomous_navigator]: Tentando mover de (17, 7) para (18, 7)
+[INFO] [1764517615.541775849] [cg_autonomous_navigator]: Movimento para (18, 7) bem-sucedido.
+[INFO] [1764517615.590133015] [cg_autonomous_navigator]: Tentando mover de (18, 7) para (19, 7)
+[INFO] [1764517615.593516549] [cg_autonomous_navigator]: Movimento para (19, 7) bem-sucedido.
+[INFO] [1764517615.640130228] [cg_autonomous_navigator]: Tentando mover de (19, 7) para (19, 8)
+[INFO] [1764517615.643813398] [cg_autonomous_navigator]: Movimento para (19, 8) bem-sucedido.
+[INFO] [1764517615.690137327] [cg_autonomous_navigator]: Tentando mover de (19, 8) para (19, 9)
+[INFO] [1764517615.692226952] [cg_autonomous_navigator]: Movimento para (19, 9) bem-sucedido.
+[INFO] [1764517615.740145934] [cg_autonomous_navigator]: Tentando mover de (19, 9) para (20, 9)
+[INFO] [1764517615.744627095] [cg_autonomous_navigator]: Movimento para (20, 9) bem-sucedido.
+[INFO] [1764517615.790144186] [cg_autonomous_navigator]: Tentando mover de (20, 9) para (21, 9)
+[INFO] [1764517615.792302455] [cg_autonomous_navigator]: Movimento para (21, 9) bem-sucedido.
+[INFO] [1764517615.840132911] [cg_autonomous_navigator]: Tentando mover de (21, 9) para (21, 8)
+[INFO] [1764517615.841002597] [cg_autonomous_navigator]: Movimento para (21, 8) bem-sucedido.
+[INFO] [1764517615.890133509] [cg_autonomous_navigator]: Tentando mover de (21, 8) para (21, 7)
+[INFO] [1764517615.890798393] [cg_autonomous_navigator]: Movimento para (21, 7) bem-sucedido.
+[INFO] [1764517615.940242130] [cg_autonomous_navigator]: Tentando mover de (21, 7) para (21, 6)
+[INFO] [1764517615.941051538] [cg_autonomous_navigator]: Movimento para (21, 6) bem-sucedido.
+[INFO] [1764517615.990146025] [cg_autonomous_navigator]: Tentando mover de (21, 6) para (21, 5)
+[INFO] [1764517615.991534842] [cg_autonomous_navigator]: Movimento para (21, 5) bem-sucedido.
+[INFO] [1764517616.040138164] [cg_autonomous_navigator]: Tentando mover de (21, 5) para (21, 4)
+[INFO] [1764517616.043301197] [cg_autonomous_navigator]: Movimento para (21, 4) bem-sucedido.
+[INFO] [1764517616.090137160] [cg_autonomous_navigator]: Tentando mover de (21, 4) para (21, 3)
+[INFO] [1764517616.091044756] [cg_autonomous_navigator]: Movimento para (21, 3) bem-sucedido.
+[INFO] [1764517616.140128831] [cg_autonomous_navigator]: Tentando mover de (21, 3) para (21, 2)
+[INFO] [1764517616.140693827] [cg_autonomous_navigator]: Movimento para (21, 2) bem-sucedido.
+[INFO] [1764517616.190143833] [cg_autonomous_navigator]: Tentando mover de (21, 2) para (21, 1)
+[INFO] [1764517616.190949033] [cg_autonomous_navigator]: Movimento para (21, 1) bem-sucedido.
+[INFO] [1764517616.240151146] [cg_autonomous_navigator]: Tentando mover de (21, 1) para (20, 1)
+[INFO] [1764517616.242092272] [cg_autonomous_navigator]: Movimento para (20, 1) bem-sucedido.
+[INFO] [1764517616.290146431] [cg_autonomous_navigator]: Tentando mover de (20, 1) para (19, 1)
+[INFO] [1764517616.291598936] [cg_autonomous_navigator]: Movimento para (19, 1) bem-sucedido.
+[INFO] [1764517616.340143847] [cg_autonomous_navigator]: Tentando mover de (19, 1) para (19, 2)
+[INFO] [1764517616.341105474] [cg_autonomous_navigator]: Movimento para (19, 2) bem-sucedido.
+[INFO] [1764517616.390146818] [cg_autonomous_navigator]: Tentando mover de (19, 2) para (19, 3)
+[INFO] [1764517616.391127850] [cg_autonomous_navigator]: Movimento para (19, 3) bem-sucedido.
+[INFO] [1764517616.440143672] [cg_autonomous_navigator]: Tentando mover de (19, 3) para (18, 3)
+[INFO] [1764517616.441229349] [cg_autonomous_navigator]: Movimento para (18, 3) bem-sucedido.
+[INFO] [1764517616.490147885] [cg_autonomous_navigator]: Tentando mover de (18, 3) para (17, 3)
+[INFO] [1764517616.492499811] [cg_autonomous_navigator]: Movimento para (17, 3) bem-sucedido.
+[INFO] [1764517616.540149924] [cg_autonomous_navigator]: Tentando mover de (17, 3) para (17, 2)
+[INFO] [1764517616.541527797] [cg_autonomous_navigator]: Movimento para (17, 2) bem-sucedido.
+[INFO] [1764517616.590148708] [cg_autonomous_navigator]: Tentando mover de (17, 2) para (17, 1)
+[INFO] [1764517616.592299676] [cg_autonomous_navigator]: Movimento para (17, 1) bem-sucedido.
+[INFO] [1764517616.640145479] [cg_autonomous_navigator]: Tentando mover de (17, 1) para (16, 1)
+[INFO] [1764517616.642227845] [cg_autonomous_navigator]: Movimento para (16, 1) bem-sucedido.
+[INFO] [1764517616.690157538] [cg_autonomous_navigator]: Tentando mover de (16, 1) para (15, 1)
+[INFO] [1764517616.690755613] [cg_autonomous_navigator]: Movimento para (15, 1) bem-sucedido.
+[INFO] [1764517616.740142354] [cg_autonomous_navigator]: Tentando mover de (15, 1) para (14, 1)
+[INFO] [1764517616.741872115] [cg_autonomous_navigator]: Movimento para (14, 1) bem-sucedido.
+[INFO] [1764517616.790133123] [cg_autonomous_navigator]: Tentando mover de (14, 1) para (13, 1)
+[INFO] [1764517616.792637754] [cg_autonomous_navigator]: Movimento para (13, 1) bem-sucedido.
+[INFO] [1764517616.840143519] [cg_autonomous_navigator]: Tentando mover de (13, 1) para (12, 1)
+[INFO] [1764517616.843958638] [cg_autonomous_navigator]: Movimento para (12, 1) bem-sucedido.
+[INFO] [1764517616.890139612] [cg_autonomous_navigator]: Tentando mover de (12, 1) para (11, 1)
+[INFO] [1764517616.892423320] [cg_autonomous_navigator]: Movimento para (11, 1) bem-sucedido.
+[INFO] [1764517616.940136442] [cg_autonomous_navigator]: Tentando mover de (11, 1) para (10, 1)
+[INFO] [1764517616.941799202] [cg_autonomous_navigator]: Movimento para (10, 1) bem-sucedido.
+[INFO] [1764517616.990137831] [cg_autonomous_navigator]: Tentando mover de (10, 1) para (9, 1)
+[INFO] [1764517616.991601101] [cg_autonomous_navigator]: Movimento para (9, 1) bem-sucedido.
+[INFO] [1764517617.040149262] [cg_autonomous_navigator]: Tentando mover de (9, 1) para (8, 1)
+[INFO] [1764517617.041457560] [cg_autonomous_navigator]: Movimento para (8, 1) bem-sucedido.
+[INFO] [1764517617.090139527] [cg_autonomous_navigator]: Tentando mover de (8, 1) para (7, 1)
+[INFO] [1764517617.090901171] [cg_autonomous_navigator]: Movimento para (7, 1) bem-sucedido.
+[INFO] [1764517617.140137872] [cg_autonomous_navigator]: Tentando mover de (7, 1) para (7, 2)
+[INFO] [1764517617.142370300] [cg_autonomous_navigator]: Movimento para (7, 2) bem-sucedido.
+[INFO] [1764517617.190144651] [cg_autonomous_navigator]: Tentando mover de (7, 2) para (7, 3)
+[INFO] [1764517617.191952550] [cg_autonomous_navigator]: Movimento para (7, 3) bem-sucedido.
+[INFO] [1764517617.240147260] [cg_autonomous_navigator]: Tentando mover de (7, 3) para (7, 4)
+[INFO] [1764517617.242063825] [cg_autonomous_navigator]: Movimento para (7, 4) bem-sucedido.
+[INFO] [1764517617.290151708] [cg_autonomous_navigator]: Tentando mover de (7, 4) para (7, 5)
+[INFO] [1764517617.290644902] [cg_autonomous_navigator]: Movimento para (7, 5) bem-sucedido.
+[INFO] [1764517617.340156340] [cg_autonomous_navigator]: Tentando mover de (7, 5) para (8, 5)
+[INFO] [1764517617.340733536] [cg_autonomous_navigator]: Movimento para (8, 5) bem-sucedido.
+[INFO] [1764517617.390133043] [cg_autonomous_navigator]: Tentando mover de (8, 5) para (9, 5)
+[INFO] [1764517617.393328757] [cg_autonomous_navigator]: Movimento para (9, 5) bem-sucedido.
+[INFO] [1764517617.440158905] [cg_autonomous_navigator]: Tentando mover de (9, 5) para (9, 4)
+[INFO] [1764517617.441217979] [cg_autonomous_navigator]: Movimento para (9, 4) bem-sucedido.
+[INFO] [1764517617.490161581] [cg_autonomous_navigator]: Tentando mover de (9, 4) para (9, 3)
+[INFO] [1764517617.490860405] [cg_autonomous_navigator]: Movimento para (9, 3) bem-sucedido.
+[INFO] [1764517617.540156598] [cg_autonomous_navigator]: Tentando mover de (9, 3) para (10, 3)
+[INFO] [1764517617.542521938] [cg_autonomous_navigator]: Movimento para (10, 3) bem-sucedido.
+[INFO] [1764517617.590139940] [cg_autonomous_navigator]: Tentando mover de (10, 3) para (11, 3)
+[INFO] [1764517617.591243967] [cg_autonomous_navigator]: Movimento para (11, 3) bem-sucedido.
+[INFO] [1764517617.640145997] [cg_autonomous_navigator]: Tentando mover de (11, 3) para (12, 3)
+[INFO] [1764517617.641017120] [cg_autonomous_navigator]: Movimento para (12, 3) bem-sucedido.
+[INFO] [1764517617.690166718] [cg_autonomous_navigator]: Tentando mover de (12, 3) para (13, 3)
+[INFO] [1764517617.694076273] [cg_autonomous_navigator]: Movimento para (13, 3) bem-sucedido.
+[INFO] [1764517617.740236072] [cg_autonomous_navigator]: Tentando mover de (13, 3) para (13, 4)
+[INFO] [1764517617.742748751] [cg_autonomous_navigator]: Movimento para (13, 4) bem-sucedido.
+[INFO] [1764517617.790156295] [cg_autonomous_navigator]: Tentando mover de (13, 4) para (13, 5)
+[INFO] [1764517617.791684033] [cg_autonomous_navigator]: Movimento para (13, 5) bem-sucedido.
+[INFO] [1764517617.840167249] [cg_autonomous_navigator]: Tentando mover de (13, 5) para (14, 5)
+[INFO] [1764517617.842407664] [cg_autonomous_navigator]: Movimento para (14, 5) bem-sucedido.
+[INFO] [1764517617.890159570] [cg_autonomous_navigator]: Tentando mover de (14, 5) para (15, 5)
+[INFO] [1764517617.890752874] [cg_autonomous_navigator]: Movimento para (15, 5) bem-sucedido.
+[INFO] [1764517617.940166564] [cg_autonomous_navigator]: Tentando mover de (15, 5) para (15, 6)
+[INFO] [1764517617.941927986] [cg_autonomous_navigator]: Movimento para (15, 6) bem-sucedido.
+[INFO] [1764517617.990177280] [cg_autonomous_navigator]: Tentando mover de (15, 6) para (15, 7)
+[INFO] [1764517617.992501430] [cg_autonomous_navigator]: Movimento para (15, 7) bem-sucedido.
+[INFO] [1764517618.040180852] [cg_autonomous_navigator]: Tentando mover de (15, 7) para (14, 7)
+[INFO] [1764517618.040837830] [cg_autonomous_navigator]: Movimento para (14, 7) bem-sucedido.
+[INFO] [1764517618.090168285] [cg_autonomous_navigator]: Tentando mover de (14, 7) para (13, 7)
+[INFO] [1764517618.094395596] [cg_autonomous_navigator]: Movimento para (13, 7) bem-sucedido.
+[INFO] [1764517618.140165197] [cg_autonomous_navigator]: Tentando mover de (13, 7) para (12, 7)
+[INFO] [1764517618.144319949] [cg_autonomous_navigator]: Movimento para (12, 7) bem-sucedido.
+[INFO] [1764517618.190195035] [cg_autonomous_navigator]: Tentando mover de (12, 7) para (11, 7)
+[INFO] [1764517618.193670804] [cg_autonomous_navigator]: Movimento para (11, 7) bem-sucedido.
+[INFO] [1764517618.240171476] [cg_autonomous_navigator]: Tentando mover de (11, 7) para (11, 8)
+[INFO] [1764517618.240682856] [cg_autonomous_navigator]: Movimento para (11, 8) bem-sucedido.
+[INFO] [1764517618.290179023] [cg_autonomous_navigator]: Tentando mover de (11, 8) para (11, 9)
+[INFO] [1764517618.293405602] [cg_autonomous_navigator]: Movimento para (11, 9) bem-sucedido.
+[INFO] [1764517618.340188307] [cg_autonomous_navigator]: Tentando mover de (11, 9) para (10, 9)
+[INFO] [1764517618.341757934] [cg_autonomous_navigator]: Movimento para (10, 9) bem-sucedido.
+[INFO] [1764517618.390176992] [cg_autonomous_navigator]: Tentando mover de (10, 9) para (9, 9)
+[INFO] [1764517618.390829493] [cg_autonomous_navigator]: Movimento para (9, 9) bem-sucedido.
+[INFO] [1764517618.440153077] [cg_autonomous_navigator]: Tentando mover de (9, 9) para (9, 10)
+[INFO] [1764517618.441051478] [cg_autonomous_navigator]: Movimento para (9, 10) bem-sucedido.
+[INFO] [1764517618.490192971] [cg_autonomous_navigator]: Tentando mover de (9, 10) para (9, 11)
+[INFO] [1764517618.491189446] [cg_autonomous_navigator]: Movimento para (9, 11) bem-sucedido.
+[INFO] [1764517618.540182432] [cg_autonomous_navigator]: Tentando mover de (9, 11) para (8, 11)
+[INFO] [1764517618.541613689] [cg_autonomous_navigator]: Movimento para (8, 11) bem-sucedido.
+[INFO] [1764517618.590171019] [cg_autonomous_navigator]: Tentando mover de (8, 11) para (7, 11)
+[INFO] [1764517618.590820941] [cg_autonomous_navigator]: Movimento para (7, 11) bem-sucedido.
+[INFO] [1764517618.640171636] [cg_autonomous_navigator]: Tentando mover de (7, 11) para (7, 12)
+[INFO] [1764517618.643071769] [cg_autonomous_navigator]: Movimento para (7, 12) bem-sucedido.
+[INFO] [1764517618.690158352] [cg_autonomous_navigator]: Tentando mover de (7, 12) para (7, 13)
+[INFO] [1764517618.691003285] [cg_autonomous_navigator]: Movimento para (7, 13) bem-sucedido.
+[INFO] [1764517618.740157096] [cg_autonomous_navigator]: Tentando mover de (7, 13) para (8, 13)
+[INFO] [1764517618.741196677] [cg_autonomous_navigator]: Movimento para (8, 13) bem-sucedido.
+[INFO] [1764517618.790156287] [cg_autonomous_navigator]: Tentando mover de (8, 13) para (9, 13)
+[INFO] [1764517618.792629715] [cg_autonomous_navigator]: Movimento para (9, 13) bem-sucedido.
+[INFO] [1764517618.840159660] [cg_autonomous_navigator]: Tentando mover de (9, 13) para (9, 14)
+[INFO] [1764517618.840879130] [cg_autonomous_navigator]: Movimento para (9, 14) bem-sucedido.
+[INFO] [1764517618.890176673] [cg_autonomous_navigator]: Tentando mover de (9, 14) para (9, 15)
+[INFO] [1764517618.894293992] [cg_autonomous_navigator]: Movimento para (9, 15) bem-sucedido.
+[INFO] [1764517618.940199783] [cg_autonomous_navigator]: Tentando mover de (9, 15) para (10, 15)
+[INFO] [1764517618.944875566] [cg_autonomous_navigator]: Movimento para (10, 15) bem-sucedido.
+[INFO] [1764517618.990178911] [cg_autonomous_navigator]: Tentando mover de (10, 15) para (11, 15)
+[INFO] [1764517618.993357769] [cg_autonomous_navigator]: Movimento para (11, 15) bem-sucedido.
+[INFO] [1764517619.040172150] [cg_autonomous_navigator]: Tentando mover de (11, 15) para (12, 15)
+[INFO] [1764517619.042015149] [cg_autonomous_navigator]: Movimento para (12, 15) bem-sucedido.
+[INFO] [1764517619.090184232] [cg_autonomous_navigator]: Tentando mover de (12, 15) para (13, 15)
+[INFO] [1764517619.091856711] [cg_autonomous_navigator]: Movimento para (13, 15) bem-sucedido.
+[INFO] [1764517619.140209465] [cg_autonomous_navigator]: Tentando mover de (13, 15) para (13, 14)
+[INFO] [1764517619.141660705] [cg_autonomous_navigator]: Movimento para (13, 14) bem-sucedido.
+[INFO] [1764517619.190258007] [cg_autonomous_navigator]: Tentando mover de (13, 14) para (14, 14)
+[INFO] [1764517619.190920451] [cg_autonomous_navigator]: Movimento para (14, 14) bem-sucedido.
+[INFO] [1764517619.240217237] [cg_autonomous_navigator]: Robô chegou ao alvo!

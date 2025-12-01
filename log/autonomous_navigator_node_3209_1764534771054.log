@@ -1,0 +1,6 @@
+[INFO] [1764534771.111557410] [cg_autonomous_navigator]: Tentando conectar ao serviço /get_map...
+[INFO] [1764534771.128336310] [cg_autonomous_navigator]: Serviço /get_map disponível, enviando request...
+[INFO] [1764534771.129341900] [cg_autonomous_navigator]: Modo PATHFIND: Robô conhece o mapa completo.
+[INFO] [1764534771.129362780] [cg_autonomous_navigator]: Dimensões do mapa recebidas: 29x29. O robô começa em (1, 1).
+[INFO] [1764534771.161782055] [cg_autonomous_navigator]: Modo PATHFIND: Caminho calculado com 111 passos.
+[INFO] [1764534776.661687237] [cg_autonomous_navigator]: Robô chegou ao alvo!

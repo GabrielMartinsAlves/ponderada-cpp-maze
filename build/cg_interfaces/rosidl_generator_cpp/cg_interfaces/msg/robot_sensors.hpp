@@ -4,7 +4,6 @@
 #ifndef CG_INTERFACES__MSG__ROBOT_SENSORS_HPP_
 #define CG_INTERFACES__MSG__ROBOT_SENSORS_HPP_
 
-#include <cstdint>
 #include "cg_interfaces/msg/detail/robot_sensors__struct.hpp"
 #include "cg_interfaces/msg/detail/robot_sensors__builder.hpp"
 #include "cg_interfaces/msg/detail/robot_sensors__traits.hpp"

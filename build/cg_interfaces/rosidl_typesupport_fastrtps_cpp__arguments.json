@@ -1,33 +1,25 @@
 {
   "package_name": "cg_interfaces",
-  "output_dir": "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_typesupport_fastrtps_cpp/cg_interfaces",
-  "template_dir": "/usr/lib64/ros-jazzy/share/rosidl_typesupport_fastrtps_cpp/resource",
+  "output_dir": "/project_ws/build/cg_interfaces/rosidl_typesupport_fastrtps_cpp/cg_interfaces",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource",
   "idl_tuples": [
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl",
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl",
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl",
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl"
-  ],
-  "ros_interface_dependencies": [
-    "service_msgs:/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
-    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "builtin_interfaces:/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl",
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl",
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl",
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl"
   ],
   "target_dependencies": [
-    "/usr/lib64/ros-jazzy/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
-    "/usr/lib64/ros-jazzy/lib/python3.13/site-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
-    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
-    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
-    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
-    "/usr/lib64/ros-jazzy/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/MoveCmd.idl",
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/GetMap.idl",
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/msg/RobotSensors.idl",
-    "/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/Reset.idl",
-    "/usr/lib64/ros-jazzy/share/service_msgs/msg/ServiceEventInfo.idl",
-    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Duration.idl",
-    "/usr/lib64/ros-jazzy/share/builtin_interfaces/msg/Time.idl"
+    "/opt/ros/humble/lib/rosidl_typesupport_fastrtps_cpp/rosidl_typesupport_fastrtps_cpp",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_fastrtps_cpp/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/idl__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/msg__type_support.cpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__rosidl_typesupport_fastrtps_cpp.hpp.em",
+    "/opt/ros/humble/share/rosidl_typesupport_fastrtps_cpp/resource/srv__type_support.cpp.em",
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/MoveCmd.idl",
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/GetMap.idl",
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces/msg/RobotSensors.idl",
+    "/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces/srv/Reset.idl"
   ]
 }

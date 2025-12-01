@@ -1,0 +1,101 @@
+running egg_info
+creating ../../build/cg/cg.egg-info
+writing ../../build/cg/cg.egg-info/PKG-INFO
+writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt
+writing entry points to ../../build/cg/cg.egg-info/entry_points.txt
+writing requirements to ../../build/cg/cg.egg-info/requires.txt
+writing top-level names to ../../build/cg/cg.egg-info/top_level.txt
+writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+adding license file 'LICENSE'
+writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /project_ws/build/cg/build
+creating /project_ws/build/cg/build/lib
+creating /project_ws/build/cg/build/lib/cg
+copying cg/Editor.py -> /project_ws/build/cg/build/lib/cg
+copying cg/Game.py -> /project_ws/build/cg/build/lib/cg
+copying cg/Maze.py -> /project_ws/build/cg/build/lib/cg
+copying cg/Robot.py -> /project_ws/build/cg/build/lib/cg
+copying cg/__init__.py -> /project_ws/build/cg/build/lib/cg
+copying cg/main.py -> /project_ws/build/cg/build/lib/cg
+copying cg/teste.py -> /project_ws/build/cg/build/lib/cg
+creating /project_ws/build/cg/build/lib/cg/Utils
+copying cg/Utils/Csv.py -> /project_ws/build/cg/build/lib/cg/Utils
+copying cg/Utils/Finders.py -> /project_ws/build/cg/build/lib/cg/Utils
+copying cg/Utils/Grid.py -> /project_ws/build/cg/build/lib/cg/Utils
+copying cg/Utils/Screen.py -> /project_ws/build/cg/build/lib/cg/Utils
+copying cg/Utils/__init__.py -> /project_ws/build/cg/build/lib/cg/Utils
+running install
+running install_lib
+creating /project_ws/install/cg/lib/python3.10/site-packages/cg
+copying /project_ws/build/cg/build/lib/cg/Editor.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+copying /project_ws/build/cg/build/lib/cg/Game.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+copying /project_ws/build/cg/build/lib/cg/Maze.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+copying /project_ws/build/cg/build/lib/cg/Robot.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+copying /project_ws/build/cg/build/lib/cg/__init__.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+copying /project_ws/build/cg/build/lib/cg/main.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+copying /project_ws/build/cg/build/lib/cg/teste.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg
+creating /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+copying /project_ws/build/cg/build/lib/cg/Utils/Csv.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+copying /project_ws/build/cg/build/lib/cg/Utils/Finders.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+copying /project_ws/build/cg/build/lib/cg/Utils/Grid.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+copying /project_ws/build/cg/build/lib/cg/Utils/Screen.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+copying /project_ws/build/cg/build/lib/cg/Utils/__init__.py -> /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Editor.py to Editor.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Game.py to Game.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Maze.py to Maze.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Robot.py to Robot.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/__init__.py to __init__.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/main.py to main.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/teste.py to teste.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Csv.py to Csv.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Finders.py to Finders.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Grid.py to Grid.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/Screen.py to Screen.cpython-310.pyc
+byte-compiling /project_ws/install/cg/lib/python3.10/site-packages/cg/Utils/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /project_ws/install/cg/share/ament_index
+creating /project_ws/install/cg/share/ament_index/resource_index
+creating /project_ws/install/cg/share/ament_index/resource_index/packages
+copying resource/cg -> /project_ws/install/cg/share/ament_index/resource_index/packages
+copying package.xml -> /project_ws/install/cg/share/cg
+creating /project_ws/install/cg/share/cg/maps
+copying maps/1.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/10.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/2.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/3.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/4.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/5.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/6.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/7.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/8.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/9.csv -> /project_ws/install/cg/share/cg/maps
+copying maps/test.csv -> /project_ws/install/cg/share/cg/maps
+creating /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/brain_damage.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/cinema.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/cook.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/dabura.png -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/dies_from_peak.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/fax.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/fax3.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/freddy.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/goatjo.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/idwin.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/megumi.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/mental_damage.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/mou.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/potential_man.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/remembered.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/shibuya.jpeg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/suksuk.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+copying ../../lobotomy_kaisen/wuji.jpg -> /project_ws/install/cg/share/cg/lobotomy_kaisen
+running install_egg_info
+Copying ../../build/cg/cg.egg-info to /project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info
+running install_scripts
+Installing edit script to /project_ws/install/cg/lib/cg
+Installing maze script to /project_ws/install/cg/lib/cg
+Installing test script to /project_ws/install/cg/lib/cg
+writing list of installed files to '/project_ws/build/cg/install.log'

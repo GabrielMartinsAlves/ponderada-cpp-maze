@@ -1,4 +1,4 @@
-/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl
-/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl
-/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl
-/home/gabrielmartins/Documents/github/ponderada_ros/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl
+/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/MoveCmd.idl
+/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/GetMap.idl
+/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:msg/RobotSensors.idl
+/project_ws/build/cg_interfaces/rosidl_adapter/cg_interfaces:srv/Reset.idl

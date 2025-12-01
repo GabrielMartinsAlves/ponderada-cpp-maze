@@ -1,0 +1,24 @@
+[0.534s] Invoking command in '/project_ws/src/cg': CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/project_ws/install/cg_solver PYTHONPATH=/project_ws/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /project_ws/build/cg/build install --record /project_ws/build/cg/install.log --single-version-externally-managed install_data
+[0.663s] running egg_info
+[0.663s] writing ../../build/cg/cg.egg-info/PKG-INFO
+[0.664s] writing dependency_links to ../../build/cg/cg.egg-info/dependency_links.txt
+[0.664s] writing entry points to ../../build/cg/cg.egg-info/entry_points.txt
+[0.664s] writing requirements to ../../build/cg/cg.egg-info/requires.txt
+[0.664s] writing top-level names to ../../build/cg/cg.egg-info/top_level.txt
+[0.665s] reading manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[0.666s] adding license file 'LICENSE'
+[0.667s] writing manifest file '../../build/cg/cg.egg-info/SOURCES.txt'
+[0.667s] running build
+[0.667s] running build_py
+[0.668s] running install
+[0.668s] running install_lib
+[0.669s] running install_data
+[0.670s] running install_egg_info
+[0.671s] removing '/project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.672s] Copying ../../build/cg/cg.egg-info to /project_ws/install/cg/lib/python3.10/site-packages/cg-0.0.0-py3.10.egg-info
+[0.672s] running install_scripts
+[0.688s] Installing edit script to /project_ws/install/cg/lib/cg
+[0.688s] Installing maze script to /project_ws/install/cg/lib/cg
+[0.688s] Installing test script to /project_ws/install/cg/lib/cg
+[0.688s] writing list of installed files to '/project_ws/build/cg/install.log'
+[0.710s] Invoked command in '/project_ws/src/cg' returned '0': CMAKE_PREFIX_PATH=/project_ws/install/cg_interfaces:/project_ws/install/cg_solver PYTHONPATH=/project_ws/build/cg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/project_ws/install/cg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/cg build --build-base /project_ws/build/cg/build install --record /project_ws/build/cg/install.log --single-version-externally-managed install_data
